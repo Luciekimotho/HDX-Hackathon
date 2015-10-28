@@ -1,0 +1,27 @@
+<div class="col-sm-12">
+  <div id="home" class="">
+    <h2 class="text-left">{{description}}</h2>
+    <div id="legend" class="legend row">
+      <div class="col-md-12">
+        <div class="progress">
+          {{#each colors}}
+          <div class="progress-bar" role="progressbar" style="width: {{../percent}}%; background-color: {{this}};">
+            <span class="sr-only">{{../percent}}% Complete</span>
+          </div>
+          {{/each}}
+        </div>
+      </div>
+      <div class="col-xs-6">
+        <p class="text-left">{{min}}</p>
+      </div>
+      <div class="col-xs-6">
+        <p class="text-right">{{max}}</p>
+      </div>
+    </div>
+    <div class="choropleth row">
+      <div id="map" class="col-lg-4 col-md-offset-4 col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2">
+        <svg id="svg"></svg>
+      </div>
+    </div>
+  </div>
+</div>

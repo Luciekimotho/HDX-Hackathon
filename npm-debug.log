@@ -1,0 +1,2857 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node', '/usr/bin/npm', 'install' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.37
+4 verbose node symlink /usr/bin/node
+5 verbose readDependencies using package.json deps
+6 verbose install where, deps [ '/home/lucie/HDX/akili',
+6 verbose install   [ 'auto-reload-brunch',
+6 verbose install     'body-parser',
+6 verbose install     'bower',
+6 verbose install     'brunch',
+6 verbose install     'clean-css-brunch',
+6 verbose install     'coffee-script',
+6 verbose install     'coffee-script-brunch',
+6 verbose install     'coffeelint-brunch',
+6 verbose install     'compression',
+6 verbose install     'connect-timeout',
+6 verbose install     'css-brunch',
+6 verbose install     'express',
+6 verbose install     'handlebars-brunch',
+6 verbose install     'javascript-brunch',
+6 verbose install     'json-brunch',
+6 verbose install     'less-brunch',
+6 verbose install     'moment',
+6 verbose install     'morgan',
+6 verbose install     'process-env-brunch',
+6 verbose install     'sass-brunch',
+6 verbose install     'stylus-brunch',
+6 verbose install     'toobusy-js',
+6 verbose install     'uglify-js-brunch',
+6 verbose install     'winston',
+6 verbose install     'winston-papertrail',
+6 verbose install     'mocha-phantomjs' ] ]
+7 info preinstall akili@0.4.2
+8 verbose readDependencies using package.json deps
+9 verbose cache add [ 'auto-reload-brunch@>= 1.0 < 1.9', null ]
+10 verbose cache add name=undefined spec="auto-reload-brunch@>= 1.0 < 1.9" args=["auto-reload-brunch@>= 1.0 < 1.9",null]
+11 verbose parsed url { protocol: null,
+11 verbose parsed url   slashes: null,
+11 verbose parsed url   auth: null,
+11 verbose parsed url   host: null,
+11 verbose parsed url   port: null,
+11 verbose parsed url   hostname: null,
+11 verbose parsed url   hash: null,
+11 verbose parsed url   search: null,
+11 verbose parsed url   query: null,
+11 verbose parsed url   pathname: 'auto-reload-brunch@%3E=%201.0%20%3C%201.9',
+11 verbose parsed url   path: 'auto-reload-brunch@%3E=%201.0%20%3C%201.9',
+11 verbose parsed url   href: 'auto-reload-brunch@%3E=%201.0%20%3C%201.9' }
+12 verbose cache add [ 'body-parser@^1.5.2', null ]
+13 verbose cache add name=undefined spec="body-parser@^1.5.2" args=["body-parser@^1.5.2",null]
+14 verbose parsed url { protocol: null,
+14 verbose parsed url   slashes: null,
+14 verbose parsed url   auth: null,
+14 verbose parsed url   host: null,
+14 verbose parsed url   port: null,
+14 verbose parsed url   hostname: null,
+14 verbose parsed url   hash: null,
+14 verbose parsed url   search: null,
+14 verbose parsed url   query: null,
+14 verbose parsed url   pathname: 'body-parser@^1.5.2',
+14 verbose parsed url   path: 'body-parser@^1.5.2',
+14 verbose parsed url   href: 'body-parser@^1.5.2' }
+15 verbose cache add [ 'bower@^1.3.12', null ]
+16 verbose cache add name=undefined spec="bower@^1.3.12" args=["bower@^1.3.12",null]
+17 verbose parsed url { protocol: null,
+17 verbose parsed url   slashes: null,
+17 verbose parsed url   auth: null,
+17 verbose parsed url   host: null,
+17 verbose parsed url   port: null,
+17 verbose parsed url   hostname: null,
+17 verbose parsed url   hash: null,
+17 verbose parsed url   search: null,
+17 verbose parsed url   query: null,
+17 verbose parsed url   pathname: 'bower@^1.3.12',
+17 verbose parsed url   path: 'bower@^1.3.12',
+17 verbose parsed url   href: 'bower@^1.3.12' }
+18 verbose cache add [ 'brunch@1.8.5', null ]
+19 verbose cache add name=undefined spec="brunch@1.8.5" args=["brunch@1.8.5",null]
+20 verbose parsed url { protocol: null,
+20 verbose parsed url   slashes: null,
+20 verbose parsed url   auth: null,
+20 verbose parsed url   host: null,
+20 verbose parsed url   port: null,
+20 verbose parsed url   hostname: null,
+20 verbose parsed url   hash: null,
+20 verbose parsed url   search: null,
+20 verbose parsed url   query: null,
+20 verbose parsed url   pathname: 'brunch@1.8.5',
+20 verbose parsed url   path: 'brunch@1.8.5',
+20 verbose parsed url   href: 'brunch@1.8.5' }
+21 verbose cache add [ 'clean-css-brunch@>= 1.0 < 1.9', null ]
+22 verbose cache add name=undefined spec="clean-css-brunch@>= 1.0 < 1.9" args=["clean-css-brunch@>= 1.0 < 1.9",null]
+23 verbose parsed url { protocol: null,
+23 verbose parsed url   slashes: null,
+23 verbose parsed url   auth: null,
+23 verbose parsed url   host: null,
+23 verbose parsed url   port: null,
+23 verbose parsed url   hostname: null,
+23 verbose parsed url   hash: null,
+23 verbose parsed url   search: null,
+23 verbose parsed url   query: null,
+23 verbose parsed url   pathname: 'clean-css-brunch@%3E=%201.0%20%3C%201.9',
+23 verbose parsed url   path: 'clean-css-brunch@%3E=%201.0%20%3C%201.9',
+23 verbose parsed url   href: 'clean-css-brunch@%3E=%201.0%20%3C%201.9' }
+24 verbose cache add [ 'coffee-script@^1.9.3', null ]
+25 verbose cache add name=undefined spec="coffee-script@^1.9.3" args=["coffee-script@^1.9.3",null]
+26 verbose parsed url { protocol: null,
+26 verbose parsed url   slashes: null,
+26 verbose parsed url   auth: null,
+26 verbose parsed url   host: null,
+26 verbose parsed url   port: null,
+26 verbose parsed url   hostname: null,
+26 verbose parsed url   hash: null,
+26 verbose parsed url   search: null,
+26 verbose parsed url   query: null,
+26 verbose parsed url   pathname: 'coffee-script@^1.9.3',
+26 verbose parsed url   path: 'coffee-script@^1.9.3',
+26 verbose parsed url   href: 'coffee-script@^1.9.3' }
+27 verbose cache add [ 'coffee-script-brunch@>= 1.0 < 1.9', null ]
+28 verbose cache add name=undefined spec="coffee-script-brunch@>= 1.0 < 1.9" args=["coffee-script-brunch@>= 1.0 < 1.9",null]
+29 verbose parsed url { protocol: null,
+29 verbose parsed url   slashes: null,
+29 verbose parsed url   auth: null,
+29 verbose parsed url   host: null,
+29 verbose parsed url   port: null,
+29 verbose parsed url   hostname: null,
+29 verbose parsed url   hash: null,
+29 verbose parsed url   search: null,
+29 verbose parsed url   query: null,
+29 verbose parsed url   pathname: 'coffee-script-brunch@%3E=%201.0%20%3C%201.9',
+29 verbose parsed url   path: 'coffee-script-brunch@%3E=%201.0%20%3C%201.9',
+29 verbose parsed url   href: 'coffee-script-brunch@%3E=%201.0%20%3C%201.9' }
+30 verbose cache add name="auto-reload-brunch" spec=">= 1.0 < 1.9" args=["auto-reload-brunch",">= 1.0 < 1.9"]
+31 verbose parsed url { protocol: null,
+31 verbose parsed url   slashes: null,
+31 verbose parsed url   auth: null,
+31 verbose parsed url   host: null,
+31 verbose parsed url   port: null,
+31 verbose parsed url   hostname: null,
+31 verbose parsed url   hash: null,
+31 verbose parsed url   search: null,
+31 verbose parsed url   query: null,
+31 verbose parsed url   pathname: '%3E=%201.0%20%3C%201.9',
+31 verbose parsed url   path: '%3E=%201.0%20%3C%201.9',
+31 verbose parsed url   href: '%3E=%201.0%20%3C%201.9' }
+32 verbose addNamed [ 'auto-reload-brunch', '>= 1.0 < 1.9' ]
+33 verbose addNamed [ null, '>=1.0.0-0 <1.9.0-0' ]
+34 verbose cache add name="body-parser" spec="^1.5.2" args=["body-parser","^1.5.2"]
+35 verbose parsed url { protocol: null,
+35 verbose parsed url   slashes: null,
+35 verbose parsed url   auth: null,
+35 verbose parsed url   host: null,
+35 verbose parsed url   port: null,
+35 verbose parsed url   hostname: null,
+35 verbose parsed url   hash: null,
+35 verbose parsed url   search: null,
+35 verbose parsed url   query: null,
+35 verbose parsed url   pathname: '^1.5.2',
+35 verbose parsed url   path: '^1.5.2',
+35 verbose parsed url   href: '^1.5.2' }
+36 verbose addNamed [ 'body-parser', '^1.5.2' ]
+37 verbose addNamed [ null, '>=1.5.2-0 <2.0.0-0' ]
+38 verbose cache add name="bower" spec="^1.3.12" args=["bower","^1.3.12"]
+39 verbose parsed url { protocol: null,
+39 verbose parsed url   slashes: null,
+39 verbose parsed url   auth: null,
+39 verbose parsed url   host: null,
+39 verbose parsed url   port: null,
+39 verbose parsed url   hostname: null,
+39 verbose parsed url   hash: null,
+39 verbose parsed url   search: null,
+39 verbose parsed url   query: null,
+39 verbose parsed url   pathname: '^1.3.12',
+39 verbose parsed url   path: '^1.3.12',
+39 verbose parsed url   href: '^1.3.12' }
+40 verbose addNamed [ 'bower', '^1.3.12' ]
+41 verbose addNamed [ null, '>=1.3.12-0 <2.0.0-0' ]
+42 verbose cache add name="brunch" spec="1.8.5" args=["brunch","1.8.5"]
+43 verbose parsed url { protocol: null,
+43 verbose parsed url   slashes: null,
+43 verbose parsed url   auth: null,
+43 verbose parsed url   host: null,
+43 verbose parsed url   port: null,
+43 verbose parsed url   hostname: null,
+43 verbose parsed url   hash: null,
+43 verbose parsed url   search: null,
+43 verbose parsed url   query: null,
+43 verbose parsed url   pathname: '1.8.5',
+43 verbose parsed url   path: '1.8.5',
+43 verbose parsed url   href: '1.8.5' }
+44 verbose addNamed [ 'brunch', '1.8.5' ]
+45 verbose addNamed [ '1.8.5', '1.8.5' ]
+46 verbose cache add name="clean-css-brunch" spec=">= 1.0 < 1.9" args=["clean-css-brunch",">= 1.0 < 1.9"]
+47 verbose parsed url { protocol: null,
+47 verbose parsed url   slashes: null,
+47 verbose parsed url   auth: null,
+47 verbose parsed url   host: null,
+47 verbose parsed url   port: null,
+47 verbose parsed url   hostname: null,
+47 verbose parsed url   hash: null,
+47 verbose parsed url   search: null,
+47 verbose parsed url   query: null,
+47 verbose parsed url   pathname: '%3E=%201.0%20%3C%201.9',
+47 verbose parsed url   path: '%3E=%201.0%20%3C%201.9',
+47 verbose parsed url   href: '%3E=%201.0%20%3C%201.9' }
+48 verbose addNamed [ 'clean-css-brunch', '>= 1.0 < 1.9' ]
+49 verbose addNamed [ null, '>=1.0.0-0 <1.9.0-0' ]
+50 verbose cache add name="coffee-script" spec="^1.9.3" args=["coffee-script","^1.9.3"]
+51 verbose parsed url { protocol: null,
+51 verbose parsed url   slashes: null,
+51 verbose parsed url   auth: null,
+51 verbose parsed url   host: null,
+51 verbose parsed url   port: null,
+51 verbose parsed url   hostname: null,
+51 verbose parsed url   hash: null,
+51 verbose parsed url   search: null,
+51 verbose parsed url   query: null,
+51 verbose parsed url   pathname: '^1.9.3',
+51 verbose parsed url   path: '^1.9.3',
+51 verbose parsed url   href: '^1.9.3' }
+52 verbose addNamed [ 'coffee-script', '^1.9.3' ]
+53 verbose addNamed [ null, '>=1.9.3-0 <2.0.0-0' ]
+54 verbose cache add [ 'coffeelint-brunch@>= 1.0 < 1.9', null ]
+55 verbose cache add name=undefined spec="coffeelint-brunch@>= 1.0 < 1.9" args=["coffeelint-brunch@>= 1.0 < 1.9",null]
+56 verbose parsed url { protocol: null,
+56 verbose parsed url   slashes: null,
+56 verbose parsed url   auth: null,
+56 verbose parsed url   host: null,
+56 verbose parsed url   port: null,
+56 verbose parsed url   hostname: null,
+56 verbose parsed url   hash: null,
+56 verbose parsed url   search: null,
+56 verbose parsed url   query: null,
+56 verbose parsed url   pathname: 'coffeelint-brunch@%3E=%201.0%20%3C%201.9',
+56 verbose parsed url   path: 'coffeelint-brunch@%3E=%201.0%20%3C%201.9',
+56 verbose parsed url   href: 'coffeelint-brunch@%3E=%201.0%20%3C%201.9' }
+57 verbose cache add [ 'compression@^1.0.11', null ]
+58 verbose cache add name=undefined spec="compression@^1.0.11" args=["compression@^1.0.11",null]
+59 verbose parsed url { protocol: null,
+59 verbose parsed url   slashes: null,
+59 verbose parsed url   auth: null,
+59 verbose parsed url   host: null,
+59 verbose parsed url   port: null,
+59 verbose parsed url   hostname: null,
+59 verbose parsed url   hash: null,
+59 verbose parsed url   search: null,
+59 verbose parsed url   query: null,
+59 verbose parsed url   pathname: 'compression@^1.0.11',
+59 verbose parsed url   path: 'compression@^1.0.11',
+59 verbose parsed url   href: 'compression@^1.0.11' }
+60 verbose cache add [ 'connect-timeout@^1.2.2', null ]
+61 verbose cache add name=undefined spec="connect-timeout@^1.2.2" args=["connect-timeout@^1.2.2",null]
+62 verbose parsed url { protocol: null,
+62 verbose parsed url   slashes: null,
+62 verbose parsed url   auth: null,
+62 verbose parsed url   host: null,
+62 verbose parsed url   port: null,
+62 verbose parsed url   hostname: null,
+62 verbose parsed url   hash: null,
+62 verbose parsed url   search: null,
+62 verbose parsed url   query: null,
+62 verbose parsed url   pathname: 'connect-timeout@^1.2.2',
+62 verbose parsed url   path: 'connect-timeout@^1.2.2',
+62 verbose parsed url   href: 'connect-timeout@^1.2.2' }
+63 verbose cache add [ 'css-brunch@>= 1.0 < 1.9', null ]
+64 verbose cache add name=undefined spec="css-brunch@>= 1.0 < 1.9" args=["css-brunch@>= 1.0 < 1.9",null]
+65 verbose parsed url { protocol: null,
+65 verbose parsed url   slashes: null,
+65 verbose parsed url   auth: null,
+65 verbose parsed url   host: null,
+65 verbose parsed url   port: null,
+65 verbose parsed url   hostname: null,
+65 verbose parsed url   hash: null,
+65 verbose parsed url   search: null,
+65 verbose parsed url   query: null,
+65 verbose parsed url   pathname: 'css-brunch@%3E=%201.0%20%3C%201.9',
+65 verbose parsed url   path: 'css-brunch@%3E=%201.0%20%3C%201.9',
+65 verbose parsed url   href: 'css-brunch@%3E=%201.0%20%3C%201.9' }
+66 verbose cache add [ 'express@^4.9.8', null ]
+67 verbose cache add name=undefined spec="express@^4.9.8" args=["express@^4.9.8",null]
+68 verbose parsed url { protocol: null,
+68 verbose parsed url   slashes: null,
+68 verbose parsed url   auth: null,
+68 verbose parsed url   host: null,
+68 verbose parsed url   port: null,
+68 verbose parsed url   hostname: null,
+68 verbose parsed url   hash: null,
+68 verbose parsed url   search: null,
+68 verbose parsed url   query: null,
+68 verbose parsed url   pathname: 'express@^4.9.8',
+68 verbose parsed url   path: 'express@^4.9.8',
+68 verbose parsed url   href: 'express@^4.9.8' }
+69 verbose cache add [ 'handlebars-brunch@>= 1.0 < 1.9', null ]
+70 verbose cache add name=undefined spec="handlebars-brunch@>= 1.0 < 1.9" args=["handlebars-brunch@>= 1.0 < 1.9",null]
+71 verbose parsed url { protocol: null,
+71 verbose parsed url   slashes: null,
+71 verbose parsed url   auth: null,
+71 verbose parsed url   host: null,
+71 verbose parsed url   port: null,
+71 verbose parsed url   hostname: null,
+71 verbose parsed url   hash: null,
+71 verbose parsed url   search: null,
+71 verbose parsed url   query: null,
+71 verbose parsed url   pathname: 'handlebars-brunch@%3E=%201.0%20%3C%201.9',
+71 verbose parsed url   path: 'handlebars-brunch@%3E=%201.0%20%3C%201.9',
+71 verbose parsed url   href: 'handlebars-brunch@%3E=%201.0%20%3C%201.9' }
+72 verbose cache add [ 'javascript-brunch@>= 1.0 < 1.9', null ]
+73 verbose cache add name=undefined spec="javascript-brunch@>= 1.0 < 1.9" args=["javascript-brunch@>= 1.0 < 1.9",null]
+74 verbose parsed url { protocol: null,
+74 verbose parsed url   slashes: null,
+74 verbose parsed url   auth: null,
+74 verbose parsed url   host: null,
+74 verbose parsed url   port: null,
+74 verbose parsed url   hostname: null,
+74 verbose parsed url   hash: null,
+74 verbose parsed url   search: null,
+74 verbose parsed url   query: null,
+74 verbose parsed url   pathname: 'javascript-brunch@%3E=%201.0%20%3C%201.9',
+74 verbose parsed url   path: 'javascript-brunch@%3E=%201.0%20%3C%201.9',
+74 verbose parsed url   href: 'javascript-brunch@%3E=%201.0%20%3C%201.9' }
+75 verbose cache add [ 'json-brunch@>= 1.0 < 1.9', null ]
+76 verbose cache add name=undefined spec="json-brunch@>= 1.0 < 1.9" args=["json-brunch@>= 1.0 < 1.9",null]
+77 verbose parsed url { protocol: null,
+77 verbose parsed url   slashes: null,
+77 verbose parsed url   auth: null,
+77 verbose parsed url   host: null,
+77 verbose parsed url   port: null,
+77 verbose parsed url   hostname: null,
+77 verbose parsed url   hash: null,
+77 verbose parsed url   search: null,
+77 verbose parsed url   query: null,
+77 verbose parsed url   pathname: 'json-brunch@%3E=%201.0%20%3C%201.9',
+77 verbose parsed url   path: 'json-brunch@%3E=%201.0%20%3C%201.9',
+77 verbose parsed url   href: 'json-brunch@%3E=%201.0%20%3C%201.9' }
+78 verbose cache add name="coffee-script-brunch" spec=">= 1.0 < 1.9" args=["coffee-script-brunch",">= 1.0 < 1.9"]
+79 verbose parsed url { protocol: null,
+79 verbose parsed url   slashes: null,
+79 verbose parsed url   auth: null,
+79 verbose parsed url   host: null,
+79 verbose parsed url   port: null,
+79 verbose parsed url   hostname: null,
+79 verbose parsed url   hash: null,
+79 verbose parsed url   search: null,
+79 verbose parsed url   query: null,
+79 verbose parsed url   pathname: '%3E=%201.0%20%3C%201.9',
+79 verbose parsed url   path: '%3E=%201.0%20%3C%201.9',
+79 verbose parsed url   href: '%3E=%201.0%20%3C%201.9' }
+80 verbose addNamed [ 'coffee-script-brunch', '>= 1.0 < 1.9' ]
+81 verbose addNamed [ null, '>=1.0.0-0 <1.9.0-0' ]
+82 silly lockFile be516524-auto-reload-brunch-1-0-1-9 auto-reload-brunch@>= 1.0 < 1.9
+83 verbose lock auto-reload-brunch@>= 1.0 < 1.9 /home/lucie/.npm/be516524-auto-reload-brunch-1-0-1-9.lock
+84 silly lockFile bf0ebea1-body-parser-1-5-2 body-parser@^1.5.2
+85 verbose lock body-parser@^1.5.2 /home/lucie/.npm/bf0ebea1-body-parser-1-5-2.lock
+86 silly lockFile 99f654c7-bower-1-3-12 bower@^1.3.12
+87 verbose lock bower@^1.3.12 /home/lucie/.npm/99f654c7-bower-1-3-12.lock
+88 silly lockFile 97d11f37-brunch-1-8-5 brunch@1.8.5
+89 verbose lock brunch@1.8.5 /home/lucie/.npm/97d11f37-brunch-1-8-5.lock
+90 silly lockFile c0769678-clean-css-brunch-1-0-1-9 clean-css-brunch@>= 1.0 < 1.9
+91 verbose lock clean-css-brunch@>= 1.0 < 1.9 /home/lucie/.npm/c0769678-clean-css-brunch-1-0-1-9.lock
+92 silly lockFile 5d8f8add-coffee-script-1-9-3 coffee-script@^1.9.3
+93 verbose lock coffee-script@^1.9.3 /home/lucie/.npm/5d8f8add-coffee-script-1-9-3.lock
+94 silly lockFile 2dce1649-coffee-script-brunch-1-0-1-9 coffee-script-brunch@>= 1.0 < 1.9
+95 verbose lock coffee-script-brunch@>= 1.0 < 1.9 /home/lucie/.npm/2dce1649-coffee-script-brunch-1-0-1-9.lock
+96 verbose cache add name="coffeelint-brunch" spec=">= 1.0 < 1.9" args=["coffeelint-brunch",">= 1.0 < 1.9"]
+97 verbose parsed url { protocol: null,
+97 verbose parsed url   slashes: null,
+97 verbose parsed url   auth: null,
+97 verbose parsed url   host: null,
+97 verbose parsed url   port: null,
+97 verbose parsed url   hostname: null,
+97 verbose parsed url   hash: null,
+97 verbose parsed url   search: null,
+97 verbose parsed url   query: null,
+97 verbose parsed url   pathname: '%3E=%201.0%20%3C%201.9',
+97 verbose parsed url   path: '%3E=%201.0%20%3C%201.9',
+97 verbose parsed url   href: '%3E=%201.0%20%3C%201.9' }
+98 verbose addNamed [ 'coffeelint-brunch', '>= 1.0 < 1.9' ]
+99 verbose addNamed [ null, '>=1.0.0-0 <1.9.0-0' ]
+100 silly lockFile cd30b0f6-coffeelint-brunch-1-0-1-9 coffeelint-brunch@>= 1.0 < 1.9
+101 verbose lock coffeelint-brunch@>= 1.0 < 1.9 /home/lucie/.npm/cd30b0f6-coffeelint-brunch-1-0-1-9.lock
+102 verbose cache add name="compression" spec="^1.0.11" args=["compression","^1.0.11"]
+103 verbose parsed url { protocol: null,
+103 verbose parsed url   slashes: null,
+103 verbose parsed url   auth: null,
+103 verbose parsed url   host: null,
+103 verbose parsed url   port: null,
+103 verbose parsed url   hostname: null,
+103 verbose parsed url   hash: null,
+103 verbose parsed url   search: null,
+103 verbose parsed url   query: null,
+103 verbose parsed url   pathname: '^1.0.11',
+103 verbose parsed url   path: '^1.0.11',
+103 verbose parsed url   href: '^1.0.11' }
+104 verbose addNamed [ 'compression', '^1.0.11' ]
+105 verbose addNamed [ null, '>=1.0.11-0 <2.0.0-0' ]
+106 silly lockFile dbeadc4b-compression-1-0-11 compression@^1.0.11
+107 verbose lock compression@^1.0.11 /home/lucie/.npm/dbeadc4b-compression-1-0-11.lock
+108 verbose cache add name="connect-timeout" spec="^1.2.2" args=["connect-timeout","^1.2.2"]
+109 verbose parsed url { protocol: null,
+109 verbose parsed url   slashes: null,
+109 verbose parsed url   auth: null,
+109 verbose parsed url   host: null,
+109 verbose parsed url   port: null,
+109 verbose parsed url   hostname: null,
+109 verbose parsed url   hash: null,
+109 verbose parsed url   search: null,
+109 verbose parsed url   query: null,
+109 verbose parsed url   pathname: '^1.2.2',
+109 verbose parsed url   path: '^1.2.2',
+109 verbose parsed url   href: '^1.2.2' }
+110 verbose addNamed [ 'connect-timeout', '^1.2.2' ]
+111 verbose addNamed [ null, '>=1.2.2-0 <2.0.0-0' ]
+112 silly lockFile 05a6513a-connect-timeout-1-2-2 connect-timeout@^1.2.2
+113 verbose lock connect-timeout@^1.2.2 /home/lucie/.npm/05a6513a-connect-timeout-1-2-2.lock
+114 verbose cache add name="css-brunch" spec=">= 1.0 < 1.9" args=["css-brunch",">= 1.0 < 1.9"]
+115 verbose parsed url { protocol: null,
+115 verbose parsed url   slashes: null,
+115 verbose parsed url   auth: null,
+115 verbose parsed url   host: null,
+115 verbose parsed url   port: null,
+115 verbose parsed url   hostname: null,
+115 verbose parsed url   hash: null,
+115 verbose parsed url   search: null,
+115 verbose parsed url   query: null,
+115 verbose parsed url   pathname: '%3E=%201.0%20%3C%201.9',
+115 verbose parsed url   path: '%3E=%201.0%20%3C%201.9',
+115 verbose parsed url   href: '%3E=%201.0%20%3C%201.9' }
+116 verbose addNamed [ 'css-brunch', '>= 1.0 < 1.9' ]
+117 verbose addNamed [ null, '>=1.0.0-0 <1.9.0-0' ]
+118 silly lockFile bdda385c-css-brunch-1-0-1-9 css-brunch@>= 1.0 < 1.9
+119 verbose lock css-brunch@>= 1.0 < 1.9 /home/lucie/.npm/bdda385c-css-brunch-1-0-1-9.lock
+120 verbose cache add name="express" spec="^4.9.8" args=["express","^4.9.8"]
+121 verbose parsed url { protocol: null,
+121 verbose parsed url   slashes: null,
+121 verbose parsed url   auth: null,
+121 verbose parsed url   host: null,
+121 verbose parsed url   port: null,
+121 verbose parsed url   hostname: null,
+121 verbose parsed url   hash: null,
+121 verbose parsed url   search: null,
+121 verbose parsed url   query: null,
+121 verbose parsed url   pathname: '^4.9.8',
+121 verbose parsed url   path: '^4.9.8',
+121 verbose parsed url   href: '^4.9.8' }
+122 verbose addNamed [ 'express', '^4.9.8' ]
+123 verbose addNamed [ null, '>=4.9.8-0 <5.0.0-0' ]
+124 silly lockFile 3a17db05-express-4-9-8 express@^4.9.8
+125 verbose lock express@^4.9.8 /home/lucie/.npm/3a17db05-express-4-9-8.lock
+126 verbose cache add name="handlebars-brunch" spec=">= 1.0 < 1.9" args=["handlebars-brunch",">= 1.0 < 1.9"]
+127 verbose parsed url { protocol: null,
+127 verbose parsed url   slashes: null,
+127 verbose parsed url   auth: null,
+127 verbose parsed url   host: null,
+127 verbose parsed url   port: null,
+127 verbose parsed url   hostname: null,
+127 verbose parsed url   hash: null,
+127 verbose parsed url   search: null,
+127 verbose parsed url   query: null,
+127 verbose parsed url   pathname: '%3E=%201.0%20%3C%201.9',
+127 verbose parsed url   path: '%3E=%201.0%20%3C%201.9',
+127 verbose parsed url   href: '%3E=%201.0%20%3C%201.9' }
+128 verbose addNamed [ 'handlebars-brunch', '>= 1.0 < 1.9' ]
+129 verbose addNamed [ null, '>=1.0.0-0 <1.9.0-0' ]
+130 silly lockFile b916123d-handlebars-brunch-1-0-1-9 handlebars-brunch@>= 1.0 < 1.9
+131 verbose lock handlebars-brunch@>= 1.0 < 1.9 /home/lucie/.npm/b916123d-handlebars-brunch-1-0-1-9.lock
+132 verbose cache add name="javascript-brunch" spec=">= 1.0 < 1.9" args=["javascript-brunch",">= 1.0 < 1.9"]
+133 verbose parsed url { protocol: null,
+133 verbose parsed url   slashes: null,
+133 verbose parsed url   auth: null,
+133 verbose parsed url   host: null,
+133 verbose parsed url   port: null,
+133 verbose parsed url   hostname: null,
+133 verbose parsed url   hash: null,
+133 verbose parsed url   search: null,
+133 verbose parsed url   query: null,
+133 verbose parsed url   pathname: '%3E=%201.0%20%3C%201.9',
+133 verbose parsed url   path: '%3E=%201.0%20%3C%201.9',
+133 verbose parsed url   href: '%3E=%201.0%20%3C%201.9' }
+134 verbose addNamed [ 'javascript-brunch', '>= 1.0 < 1.9' ]
+135 verbose addNamed [ null, '>=1.0.0-0 <1.9.0-0' ]
+136 silly lockFile 8cb60591-javascript-brunch-1-0-1-9 javascript-brunch@>= 1.0 < 1.9
+137 verbose lock javascript-brunch@>= 1.0 < 1.9 /home/lucie/.npm/8cb60591-javascript-brunch-1-0-1-9.lock
+138 verbose cache add name="json-brunch" spec=">= 1.0 < 1.9" args=["json-brunch",">= 1.0 < 1.9"]
+139 verbose parsed url { protocol: null,
+139 verbose parsed url   slashes: null,
+139 verbose parsed url   auth: null,
+139 verbose parsed url   host: null,
+139 verbose parsed url   port: null,
+139 verbose parsed url   hostname: null,
+139 verbose parsed url   hash: null,
+139 verbose parsed url   search: null,
+139 verbose parsed url   query: null,
+139 verbose parsed url   pathname: '%3E=%201.0%20%3C%201.9',
+139 verbose parsed url   path: '%3E=%201.0%20%3C%201.9',
+139 verbose parsed url   href: '%3E=%201.0%20%3C%201.9' }
+140 verbose addNamed [ 'json-brunch', '>= 1.0 < 1.9' ]
+141 verbose addNamed [ null, '>=1.0.0-0 <1.9.0-0' ]
+142 silly lockFile 3869d53a-json-brunch-1-0-1-9 json-brunch@>= 1.0 < 1.9
+143 verbose lock json-brunch@>= 1.0 < 1.9 /home/lucie/.npm/3869d53a-json-brunch-1-0-1-9.lock
+144 verbose cache add [ 'less-brunch@^1.8.1', null ]
+145 verbose cache add name=undefined spec="less-brunch@^1.8.1" args=["less-brunch@^1.8.1",null]
+146 verbose parsed url { protocol: null,
+146 verbose parsed url   slashes: null,
+146 verbose parsed url   auth: null,
+146 verbose parsed url   host: null,
+146 verbose parsed url   port: null,
+146 verbose parsed url   hostname: null,
+146 verbose parsed url   hash: null,
+146 verbose parsed url   search: null,
+146 verbose parsed url   query: null,
+146 verbose parsed url   pathname: 'less-brunch@^1.8.1',
+146 verbose parsed url   path: 'less-brunch@^1.8.1',
+146 verbose parsed url   href: 'less-brunch@^1.8.1' }
+147 verbose cache add [ 'moment@^2.8.3', null ]
+148 verbose cache add name=undefined spec="moment@^2.8.3" args=["moment@^2.8.3",null]
+149 verbose parsed url { protocol: null,
+149 verbose parsed url   slashes: null,
+149 verbose parsed url   auth: null,
+149 verbose parsed url   host: null,
+149 verbose parsed url   port: null,
+149 verbose parsed url   hostname: null,
+149 verbose parsed url   hash: null,
+149 verbose parsed url   search: null,
+149 verbose parsed url   query: null,
+149 verbose parsed url   pathname: 'moment@^2.8.3',
+149 verbose parsed url   path: 'moment@^2.8.3',
+149 verbose parsed url   href: 'moment@^2.8.3' }
+150 verbose cache add [ 'morgan@^1.2.3', null ]
+151 verbose cache add name=undefined spec="morgan@^1.2.3" args=["morgan@^1.2.3",null]
+152 verbose parsed url { protocol: null,
+152 verbose parsed url   slashes: null,
+152 verbose parsed url   auth: null,
+152 verbose parsed url   host: null,
+152 verbose parsed url   port: null,
+152 verbose parsed url   hostname: null,
+152 verbose parsed url   hash: null,
+152 verbose parsed url   search: null,
+152 verbose parsed url   query: null,
+152 verbose parsed url   pathname: 'morgan@^1.2.3',
+152 verbose parsed url   path: 'morgan@^1.2.3',
+152 verbose parsed url   href: 'morgan@^1.2.3' }
+153 verbose cache add [ 'process-env-brunch@~1.4.4-d', null ]
+154 verbose cache add name=undefined spec="process-env-brunch@~1.4.4-d" args=["process-env-brunch@~1.4.4-d",null]
+155 verbose parsed url { protocol: null,
+155 verbose parsed url   slashes: null,
+155 verbose parsed url   auth: null,
+155 verbose parsed url   host: null,
+155 verbose parsed url   port: null,
+155 verbose parsed url   hostname: null,
+155 verbose parsed url   hash: null,
+155 verbose parsed url   search: null,
+155 verbose parsed url   query: null,
+155 verbose parsed url   pathname: 'process-env-brunch@~1.4.4-d',
+155 verbose parsed url   path: 'process-env-brunch@~1.4.4-d',
+155 verbose parsed url   href: 'process-env-brunch@~1.4.4-d' }
+156 verbose cache add [ 'sass-brunch@^1.8.11', null ]
+157 verbose cache add name=undefined spec="sass-brunch@^1.8.11" args=["sass-brunch@^1.8.11",null]
+158 verbose parsed url { protocol: null,
+158 verbose parsed url   slashes: null,
+158 verbose parsed url   auth: null,
+158 verbose parsed url   host: null,
+158 verbose parsed url   port: null,
+158 verbose parsed url   hostname: null,
+158 verbose parsed url   hash: null,
+158 verbose parsed url   search: null,
+158 verbose parsed url   query: null,
+158 verbose parsed url   pathname: 'sass-brunch@^1.8.11',
+158 verbose parsed url   path: 'sass-brunch@^1.8.11',
+158 verbose parsed url   href: 'sass-brunch@^1.8.11' }
+159 verbose cache add [ 'stylus-brunch@>= 1.0 < 1.9', null ]
+160 verbose cache add name=undefined spec="stylus-brunch@>= 1.0 < 1.9" args=["stylus-brunch@>= 1.0 < 1.9",null]
+161 verbose parsed url { protocol: null,
+161 verbose parsed url   slashes: null,
+161 verbose parsed url   auth: null,
+161 verbose parsed url   host: null,
+161 verbose parsed url   port: null,
+161 verbose parsed url   hostname: null,
+161 verbose parsed url   hash: null,
+161 verbose parsed url   search: null,
+161 verbose parsed url   query: null,
+161 verbose parsed url   pathname: 'stylus-brunch@%3E=%201.0%20%3C%201.9',
+161 verbose parsed url   path: 'stylus-brunch@%3E=%201.0%20%3C%201.9',
+161 verbose parsed url   href: 'stylus-brunch@%3E=%201.0%20%3C%201.9' }
+162 verbose cache add [ 'toobusy-js@^0.3.1', null ]
+163 verbose cache add name=undefined spec="toobusy-js@^0.3.1" args=["toobusy-js@^0.3.1",null]
+164 verbose parsed url { protocol: null,
+164 verbose parsed url   slashes: null,
+164 verbose parsed url   auth: null,
+164 verbose parsed url   host: null,
+164 verbose parsed url   port: null,
+164 verbose parsed url   hostname: null,
+164 verbose parsed url   hash: null,
+164 verbose parsed url   search: null,
+164 verbose parsed url   query: null,
+164 verbose parsed url   pathname: 'toobusy-js@^0.3.1',
+164 verbose parsed url   path: 'toobusy-js@^0.3.1',
+164 verbose parsed url   href: 'toobusy-js@^0.3.1' }
+165 verbose cache add [ 'uglify-js-brunch@>= 1.0 < 1.9', null ]
+166 verbose cache add name=undefined spec="uglify-js-brunch@>= 1.0 < 1.9" args=["uglify-js-brunch@>= 1.0 < 1.9",null]
+167 verbose parsed url { protocol: null,
+167 verbose parsed url   slashes: null,
+167 verbose parsed url   auth: null,
+167 verbose parsed url   host: null,
+167 verbose parsed url   port: null,
+167 verbose parsed url   hostname: null,
+167 verbose parsed url   hash: null,
+167 verbose parsed url   search: null,
+167 verbose parsed url   query: null,
+167 verbose parsed url   pathname: 'uglify-js-brunch@%3E=%201.0%20%3C%201.9',
+167 verbose parsed url   path: 'uglify-js-brunch@%3E=%201.0%20%3C%201.9',
+167 verbose parsed url   href: 'uglify-js-brunch@%3E=%201.0%20%3C%201.9' }
+168 verbose cache add [ 'winston@^0.7.3', null ]
+169 verbose cache add name=undefined spec="winston@^0.7.3" args=["winston@^0.7.3",null]
+170 verbose parsed url { protocol: null,
+170 verbose parsed url   slashes: null,
+170 verbose parsed url   auth: null,
+170 verbose parsed url   host: null,
+170 verbose parsed url   port: null,
+170 verbose parsed url   hostname: null,
+170 verbose parsed url   hash: null,
+170 verbose parsed url   search: null,
+170 verbose parsed url   query: null,
+170 verbose parsed url   pathname: 'winston@^0.7.3',
+170 verbose parsed url   path: 'winston@^0.7.3',
+170 verbose parsed url   href: 'winston@^0.7.3' }
+171 verbose cache add [ 'winston-papertrail@^0.1.5', null ]
+172 verbose cache add name=undefined spec="winston-papertrail@^0.1.5" args=["winston-papertrail@^0.1.5",null]
+173 verbose parsed url { protocol: null,
+173 verbose parsed url   slashes: null,
+173 verbose parsed url   auth: null,
+173 verbose parsed url   host: null,
+173 verbose parsed url   port: null,
+173 verbose parsed url   hostname: null,
+173 verbose parsed url   hash: null,
+173 verbose parsed url   search: null,
+173 verbose parsed url   query: null,
+173 verbose parsed url   pathname: 'winston-papertrail@^0.1.5',
+173 verbose parsed url   path: 'winston-papertrail@^0.1.5',
+173 verbose parsed url   href: 'winston-papertrail@^0.1.5' }
+174 verbose cache add [ 'mocha-phantomjs@>= 3.3.2', null ]
+175 verbose cache add name=undefined spec="mocha-phantomjs@>= 3.3.2" args=["mocha-phantomjs@>= 3.3.2",null]
+176 verbose parsed url { protocol: null,
+176 verbose parsed url   slashes: null,
+176 verbose parsed url   auth: null,
+176 verbose parsed url   host: null,
+176 verbose parsed url   port: null,
+176 verbose parsed url   hostname: null,
+176 verbose parsed url   hash: null,
+176 verbose parsed url   search: null,
+176 verbose parsed url   query: null,
+176 verbose parsed url   pathname: 'mocha-phantomjs@%3E=%203.3.2',
+176 verbose parsed url   path: 'mocha-phantomjs@%3E=%203.3.2',
+176 verbose parsed url   href: 'mocha-phantomjs@%3E=%203.3.2' }
+177 verbose cache add name="less-brunch" spec="^1.8.1" args=["less-brunch","^1.8.1"]
+178 verbose parsed url { protocol: null,
+178 verbose parsed url   slashes: null,
+178 verbose parsed url   auth: null,
+178 verbose parsed url   host: null,
+178 verbose parsed url   port: null,
+178 verbose parsed url   hostname: null,
+178 verbose parsed url   hash: null,
+178 verbose parsed url   search: null,
+178 verbose parsed url   query: null,
+178 verbose parsed url   pathname: '^1.8.1',
+178 verbose parsed url   path: '^1.8.1',
+178 verbose parsed url   href: '^1.8.1' }
+179 verbose addNamed [ 'less-brunch', '^1.8.1' ]
+180 verbose addNamed [ null, '>=1.8.1-0 <2.0.0-0' ]
+181 silly lockFile d5b248f9-less-brunch-1-8-1 less-brunch@^1.8.1
+182 verbose lock less-brunch@^1.8.1 /home/lucie/.npm/d5b248f9-less-brunch-1-8-1.lock
+183 verbose cache add name="moment" spec="^2.8.3" args=["moment","^2.8.3"]
+184 verbose parsed url { protocol: null,
+184 verbose parsed url   slashes: null,
+184 verbose parsed url   auth: null,
+184 verbose parsed url   host: null,
+184 verbose parsed url   port: null,
+184 verbose parsed url   hostname: null,
+184 verbose parsed url   hash: null,
+184 verbose parsed url   search: null,
+184 verbose parsed url   query: null,
+184 verbose parsed url   pathname: '^2.8.3',
+184 verbose parsed url   path: '^2.8.3',
+184 verbose parsed url   href: '^2.8.3' }
+185 verbose addNamed [ 'moment', '^2.8.3' ]
+186 verbose addNamed [ null, '>=2.8.3-0 <3.0.0-0' ]
+187 silly lockFile 1fb0b04f-moment-2-8-3 moment@^2.8.3
+188 verbose lock moment@^2.8.3 /home/lucie/.npm/1fb0b04f-moment-2-8-3.lock
+189 verbose cache add name="morgan" spec="^1.2.3" args=["morgan","^1.2.3"]
+190 verbose parsed url { protocol: null,
+190 verbose parsed url   slashes: null,
+190 verbose parsed url   auth: null,
+190 verbose parsed url   host: null,
+190 verbose parsed url   port: null,
+190 verbose parsed url   hostname: null,
+190 verbose parsed url   hash: null,
+190 verbose parsed url   search: null,
+190 verbose parsed url   query: null,
+190 verbose parsed url   pathname: '^1.2.3',
+190 verbose parsed url   path: '^1.2.3',
+190 verbose parsed url   href: '^1.2.3' }
+191 verbose addNamed [ 'morgan', '^1.2.3' ]
+192 verbose addNamed [ null, '>=1.2.3-0 <2.0.0-0' ]
+193 silly lockFile 9aaf96cf-morgan-1-2-3 morgan@^1.2.3
+194 verbose lock morgan@^1.2.3 /home/lucie/.npm/9aaf96cf-morgan-1-2-3.lock
+195 verbose cache add name="process-env-brunch" spec="~1.4.4-d" args=["process-env-brunch","~1.4.4-d"]
+196 verbose parsed url { protocol: null,
+196 verbose parsed url   slashes: null,
+196 verbose parsed url   auth: null,
+196 verbose parsed url   host: null,
+196 verbose parsed url   port: null,
+196 verbose parsed url   hostname: null,
+196 verbose parsed url   hash: null,
+196 verbose parsed url   search: null,
+196 verbose parsed url   query: null,
+196 verbose parsed url   pathname: '~1.4.4-d',
+196 verbose parsed url   path: '~1.4.4-d',
+196 verbose parsed url   href: '~1.4.4-d' }
+197 verbose addNamed [ 'process-env-brunch', '~1.4.4-d' ]
+198 verbose addNamed [ null, '>=1.4.4-d <1.5.0-0' ]
+199 silly lockFile 72a38e1c-process-env-brunch-1-4-4-d process-env-brunch@~1.4.4-d
+200 verbose lock process-env-brunch@~1.4.4-d /home/lucie/.npm/72a38e1c-process-env-brunch-1-4-4-d.lock
+201 verbose cache add name="sass-brunch" spec="^1.8.11" args=["sass-brunch","^1.8.11"]
+202 verbose parsed url { protocol: null,
+202 verbose parsed url   slashes: null,
+202 verbose parsed url   auth: null,
+202 verbose parsed url   host: null,
+202 verbose parsed url   port: null,
+202 verbose parsed url   hostname: null,
+202 verbose parsed url   hash: null,
+202 verbose parsed url   search: null,
+202 verbose parsed url   query: null,
+202 verbose parsed url   pathname: '^1.8.11',
+202 verbose parsed url   path: '^1.8.11',
+202 verbose parsed url   href: '^1.8.11' }
+203 verbose addNamed [ 'sass-brunch', '^1.8.11' ]
+204 verbose addNamed [ null, '>=1.8.11-0 <2.0.0-0' ]
+205 silly lockFile 7befed67-sass-brunch-1-8-11 sass-brunch@^1.8.11
+206 verbose lock sass-brunch@^1.8.11 /home/lucie/.npm/7befed67-sass-brunch-1-8-11.lock
+207 verbose cache add name="stylus-brunch" spec=">= 1.0 < 1.9" args=["stylus-brunch",">= 1.0 < 1.9"]
+208 verbose parsed url { protocol: null,
+208 verbose parsed url   slashes: null,
+208 verbose parsed url   auth: null,
+208 verbose parsed url   host: null,
+208 verbose parsed url   port: null,
+208 verbose parsed url   hostname: null,
+208 verbose parsed url   hash: null,
+208 verbose parsed url   search: null,
+208 verbose parsed url   query: null,
+208 verbose parsed url   pathname: '%3E=%201.0%20%3C%201.9',
+208 verbose parsed url   path: '%3E=%201.0%20%3C%201.9',
+208 verbose parsed url   href: '%3E=%201.0%20%3C%201.9' }
+209 verbose addNamed [ 'stylus-brunch', '>= 1.0 < 1.9' ]
+210 verbose addNamed [ null, '>=1.0.0-0 <1.9.0-0' ]
+211 silly lockFile 0473a594-stylus-brunch-1-0-1-9 stylus-brunch@>= 1.0 < 1.9
+212 verbose lock stylus-brunch@>= 1.0 < 1.9 /home/lucie/.npm/0473a594-stylus-brunch-1-0-1-9.lock
+213 verbose cache add name="toobusy-js" spec="^0.3.1" args=["toobusy-js","^0.3.1"]
+214 verbose parsed url { protocol: null,
+214 verbose parsed url   slashes: null,
+214 verbose parsed url   auth: null,
+214 verbose parsed url   host: null,
+214 verbose parsed url   port: null,
+214 verbose parsed url   hostname: null,
+214 verbose parsed url   hash: null,
+214 verbose parsed url   search: null,
+214 verbose parsed url   query: null,
+214 verbose parsed url   pathname: '^0.3.1',
+214 verbose parsed url   path: '^0.3.1',
+214 verbose parsed url   href: '^0.3.1' }
+215 verbose addNamed [ 'toobusy-js', '^0.3.1' ]
+216 verbose addNamed [ null, '>=0.3.1-0 <0.4.0-0' ]
+217 silly lockFile 40f0dcac-toobusy-js-0-3-1 toobusy-js@^0.3.1
+218 verbose lock toobusy-js@^0.3.1 /home/lucie/.npm/40f0dcac-toobusy-js-0-3-1.lock
+219 verbose cache add name="uglify-js-brunch" spec=">= 1.0 < 1.9" args=["uglify-js-brunch",">= 1.0 < 1.9"]
+220 verbose parsed url { protocol: null,
+220 verbose parsed url   slashes: null,
+220 verbose parsed url   auth: null,
+220 verbose parsed url   host: null,
+220 verbose parsed url   port: null,
+220 verbose parsed url   hostname: null,
+220 verbose parsed url   hash: null,
+220 verbose parsed url   search: null,
+220 verbose parsed url   query: null,
+220 verbose parsed url   pathname: '%3E=%201.0%20%3C%201.9',
+220 verbose parsed url   path: '%3E=%201.0%20%3C%201.9',
+220 verbose parsed url   href: '%3E=%201.0%20%3C%201.9' }
+221 verbose addNamed [ 'uglify-js-brunch', '>= 1.0 < 1.9' ]
+222 verbose addNamed [ null, '>=1.0.0-0 <1.9.0-0' ]
+223 silly lockFile a673e60c-uglify-js-brunch-1-0-1-9 uglify-js-brunch@>= 1.0 < 1.9
+224 verbose lock uglify-js-brunch@>= 1.0 < 1.9 /home/lucie/.npm/a673e60c-uglify-js-brunch-1-0-1-9.lock
+225 verbose cache add name="winston" spec="^0.7.3" args=["winston","^0.7.3"]
+226 verbose parsed url { protocol: null,
+226 verbose parsed url   slashes: null,
+226 verbose parsed url   auth: null,
+226 verbose parsed url   host: null,
+226 verbose parsed url   port: null,
+226 verbose parsed url   hostname: null,
+226 verbose parsed url   hash: null,
+226 verbose parsed url   search: null,
+226 verbose parsed url   query: null,
+226 verbose parsed url   pathname: '^0.7.3',
+226 verbose parsed url   path: '^0.7.3',
+226 verbose parsed url   href: '^0.7.3' }
+227 verbose addNamed [ 'winston', '^0.7.3' ]
+228 verbose addNamed [ null, '>=0.7.3-0 <0.8.0-0' ]
+229 silly lockFile f8b84d29-winston-0-7-3 winston@^0.7.3
+230 verbose lock winston@^0.7.3 /home/lucie/.npm/f8b84d29-winston-0-7-3.lock
+231 verbose cache add name="winston-papertrail" spec="^0.1.5" args=["winston-papertrail","^0.1.5"]
+232 verbose parsed url { protocol: null,
+232 verbose parsed url   slashes: null,
+232 verbose parsed url   auth: null,
+232 verbose parsed url   host: null,
+232 verbose parsed url   port: null,
+232 verbose parsed url   hostname: null,
+232 verbose parsed url   hash: null,
+232 verbose parsed url   search: null,
+232 verbose parsed url   query: null,
+232 verbose parsed url   pathname: '^0.1.5',
+232 verbose parsed url   path: '^0.1.5',
+232 verbose parsed url   href: '^0.1.5' }
+233 verbose addNamed [ 'winston-papertrail', '^0.1.5' ]
+234 verbose addNamed [ null, '>=0.1.5-0 <0.2.0-0' ]
+235 silly lockFile 89141de2-winston-papertrail-0-1-5 winston-papertrail@^0.1.5
+236 verbose lock winston-papertrail@^0.1.5 /home/lucie/.npm/89141de2-winston-papertrail-0-1-5.lock
+237 verbose cache add name="mocha-phantomjs" spec=">= 3.3.2" args=["mocha-phantomjs",">= 3.3.2"]
+238 verbose parsed url { protocol: null,
+238 verbose parsed url   slashes: null,
+238 verbose parsed url   auth: null,
+238 verbose parsed url   host: null,
+238 verbose parsed url   port: null,
+238 verbose parsed url   hostname: null,
+238 verbose parsed url   hash: null,
+238 verbose parsed url   search: null,
+238 verbose parsed url   query: null,
+238 verbose parsed url   pathname: '%3E=%203.3.2',
+238 verbose parsed url   path: '%3E=%203.3.2',
+238 verbose parsed url   href: '%3E=%203.3.2' }
+239 verbose addNamed [ 'mocha-phantomjs', '>= 3.3.2' ]
+240 verbose addNamed [ null, '>=3.3.2' ]
+241 silly lockFile cd760586-mocha-phantomjs-3-3-2 mocha-phantomjs@>= 3.3.2
+242 verbose lock mocha-phantomjs@>= 3.3.2 /home/lucie/.npm/cd760586-mocha-phantomjs-3-3-2.lock
+243 silly addNameRange { name: 'body-parser',
+243 silly addNameRange   range: '>=1.5.2-0 <2.0.0-0',
+243 silly addNameRange   hasData: false }
+244 silly addNameRange { name: 'bower', range: '>=1.3.12-0 <2.0.0-0', hasData: false }
+245 silly addNameRange { name: 'auto-reload-brunch',
+245 silly addNameRange   range: '>=1.0.0-0 <1.9.0-0',
+245 silly addNameRange   hasData: false }
+246 silly addNameRange { name: 'clean-css-brunch',
+246 silly addNameRange   range: '>=1.0.0-0 <1.9.0-0',
+246 silly addNameRange   hasData: false }
+247 silly addNameRange { name: 'coffee-script',
+247 silly addNameRange   range: '>=1.9.3-0 <2.0.0-0',
+247 silly addNameRange   hasData: false }
+248 silly addNameRange { name: 'coffee-script-brunch',
+248 silly addNameRange   range: '>=1.0.0-0 <1.9.0-0',
+248 silly addNameRange   hasData: false }
+249 silly addNameRange { name: 'coffeelint-brunch',
+249 silly addNameRange   range: '>=1.0.0-0 <1.9.0-0',
+249 silly addNameRange   hasData: false }
+250 silly addNameRange { name: 'compression',
+250 silly addNameRange   range: '>=1.0.11-0 <2.0.0-0',
+250 silly addNameRange   hasData: false }
+251 silly addNameRange { name: 'connect-timeout',
+251 silly addNameRange   range: '>=1.2.2-0 <2.0.0-0',
+251 silly addNameRange   hasData: false }
+252 silly addNameRange { name: 'css-brunch',
+252 silly addNameRange   range: '>=1.0.0-0 <1.9.0-0',
+252 silly addNameRange   hasData: false }
+253 silly addNameRange { name: 'express', range: '>=4.9.8-0 <5.0.0-0', hasData: false }
+254 silly addNameRange { name: 'handlebars-brunch',
+254 silly addNameRange   range: '>=1.0.0-0 <1.9.0-0',
+254 silly addNameRange   hasData: false }
+255 silly addNameRange { name: 'javascript-brunch',
+255 silly addNameRange   range: '>=1.0.0-0 <1.9.0-0',
+255 silly addNameRange   hasData: false }
+256 silly addNameRange { name: 'json-brunch',
+256 silly addNameRange   range: '>=1.0.0-0 <1.9.0-0',
+256 silly addNameRange   hasData: false }
+257 verbose request where is /body-parser
+258 verbose request registry https://registry.npmjs.org/
+259 verbose request id f66a8cc985f037e8
+260 verbose url raw /body-parser
+261 verbose url resolving [ 'https://registry.npmjs.org/', './body-parser' ]
+262 verbose url resolved https://registry.npmjs.org/body-parser
+263 verbose request where is https://registry.npmjs.org/body-parser
+264 info trying registry request attempt 1 at 16:07:22
+265 http GET https://registry.npmjs.org/body-parser
+266 verbose request where is /auto-reload-brunch
+267 verbose request registry https://registry.npmjs.org/
+268 verbose url raw /auto-reload-brunch
+269 verbose url resolving [ 'https://registry.npmjs.org/', './auto-reload-brunch' ]
+270 verbose url resolved https://registry.npmjs.org/auto-reload-brunch
+271 verbose request where is https://registry.npmjs.org/auto-reload-brunch
+272 info trying registry request attempt 1 at 16:07:22
+273 http GET https://registry.npmjs.org/auto-reload-brunch
+274 verbose request where is /clean-css-brunch
+275 verbose request registry https://registry.npmjs.org/
+276 verbose url raw /clean-css-brunch
+277 verbose url resolving [ 'https://registry.npmjs.org/', './clean-css-brunch' ]
+278 verbose url resolved https://registry.npmjs.org/clean-css-brunch
+279 verbose request where is https://registry.npmjs.org/clean-css-brunch
+280 info trying registry request attempt 1 at 16:07:22
+281 http GET https://registry.npmjs.org/clean-css-brunch
+282 verbose request where is /coffee-script-brunch
+283 verbose request registry https://registry.npmjs.org/
+284 verbose url raw /coffee-script-brunch
+285 verbose url resolving [ 'https://registry.npmjs.org/', './coffee-script-brunch' ]
+286 verbose url resolved https://registry.npmjs.org/coffee-script-brunch
+287 verbose request where is https://registry.npmjs.org/coffee-script-brunch
+288 info trying registry request attempt 1 at 16:07:22
+289 http GET https://registry.npmjs.org/coffee-script-brunch
+290 verbose request where is /coffeelint-brunch
+291 verbose request registry https://registry.npmjs.org/
+292 verbose url raw /coffeelint-brunch
+293 verbose url resolving [ 'https://registry.npmjs.org/', './coffeelint-brunch' ]
+294 verbose url resolved https://registry.npmjs.org/coffeelint-brunch
+295 verbose request where is https://registry.npmjs.org/coffeelint-brunch
+296 info trying registry request attempt 1 at 16:07:22
+297 http GET https://registry.npmjs.org/coffeelint-brunch
+298 verbose request where is /compression
+299 verbose request registry https://registry.npmjs.org/
+300 verbose url raw /compression
+301 verbose url resolving [ 'https://registry.npmjs.org/', './compression' ]
+302 verbose url resolved https://registry.npmjs.org/compression
+303 verbose request where is https://registry.npmjs.org/compression
+304 info trying registry request attempt 1 at 16:07:22
+305 http GET https://registry.npmjs.org/compression
+306 verbose request where is /connect-timeout
+307 verbose request registry https://registry.npmjs.org/
+308 verbose url raw /connect-timeout
+309 verbose url resolving [ 'https://registry.npmjs.org/', './connect-timeout' ]
+310 verbose url resolved https://registry.npmjs.org/connect-timeout
+311 verbose request where is https://registry.npmjs.org/connect-timeout
+312 info trying registry request attempt 1 at 16:07:22
+313 http GET https://registry.npmjs.org/connect-timeout
+314 verbose request where is /css-brunch
+315 verbose request registry https://registry.npmjs.org/
+316 verbose url raw /css-brunch
+317 verbose url resolving [ 'https://registry.npmjs.org/', './css-brunch' ]
+318 verbose url resolved https://registry.npmjs.org/css-brunch
+319 verbose request where is https://registry.npmjs.org/css-brunch
+320 info trying registry request attempt 1 at 16:07:22
+321 http GET https://registry.npmjs.org/css-brunch
+322 verbose request where is /handlebars-brunch
+323 verbose request registry https://registry.npmjs.org/
+324 verbose url raw /handlebars-brunch
+325 verbose url resolving [ 'https://registry.npmjs.org/', './handlebars-brunch' ]
+326 verbose url resolved https://registry.npmjs.org/handlebars-brunch
+327 verbose request where is https://registry.npmjs.org/handlebars-brunch
+328 info trying registry request attempt 1 at 16:07:22
+329 http GET https://registry.npmjs.org/handlebars-brunch
+330 verbose request where is /javascript-brunch
+331 verbose request registry https://registry.npmjs.org/
+332 verbose url raw /javascript-brunch
+333 verbose url resolving [ 'https://registry.npmjs.org/', './javascript-brunch' ]
+334 verbose url resolved https://registry.npmjs.org/javascript-brunch
+335 verbose request where is https://registry.npmjs.org/javascript-brunch
+336 info trying registry request attempt 1 at 16:07:22
+337 http GET https://registry.npmjs.org/javascript-brunch
+338 verbose request where is /json-brunch
+339 verbose request registry https://registry.npmjs.org/
+340 verbose url raw /json-brunch
+341 verbose url resolving [ 'https://registry.npmjs.org/', './json-brunch' ]
+342 verbose url resolved https://registry.npmjs.org/json-brunch
+343 verbose request where is https://registry.npmjs.org/json-brunch
+344 info trying registry request attempt 1 at 16:07:22
+345 http GET https://registry.npmjs.org/json-brunch
+346 silly addNameRange { name: 'moment', range: '>=2.8.3-0 <3.0.0-0', hasData: false }
+347 silly addNameRange { name: 'morgan', range: '>=1.2.3-0 <2.0.0-0', hasData: false }
+348 silly addNameRange { name: 'process-env-brunch',
+348 silly addNameRange   range: '>=1.4.4-d <1.5.0-0',
+348 silly addNameRange   hasData: false }
+349 silly addNameRange { name: 'sass-brunch',
+349 silly addNameRange   range: '>=1.8.11-0 <2.0.0-0',
+349 silly addNameRange   hasData: false }
+350 silly addNameRange { name: 'less-brunch',
+350 silly addNameRange   range: '>=1.8.1-0 <2.0.0-0',
+350 silly addNameRange   hasData: false }
+351 silly addNameRange { name: 'stylus-brunch',
+351 silly addNameRange   range: '>=1.0.0-0 <1.9.0-0',
+351 silly addNameRange   hasData: false }
+352 silly addNameRange { name: 'toobusy-js',
+352 silly addNameRange   range: '>=0.3.1-0 <0.4.0-0',
+352 silly addNameRange   hasData: false }
+353 silly addNameRange { name: 'uglify-js-brunch',
+353 silly addNameRange   range: '>=1.0.0-0 <1.9.0-0',
+353 silly addNameRange   hasData: false }
+354 silly addNameRange { name: 'winston', range: '>=0.7.3-0 <0.8.0-0', hasData: false }
+355 silly addNameRange { name: 'winston-papertrail',
+355 silly addNameRange   range: '>=0.1.5-0 <0.2.0-0',
+355 silly addNameRange   hasData: false }
+356 silly addNameRange { name: 'mocha-phantomjs', range: '>=3.3.2', hasData: false }
+357 verbose request where is /moment
+358 verbose request registry https://registry.npmjs.org/
+359 verbose url raw /moment
+360 verbose url resolving [ 'https://registry.npmjs.org/', './moment' ]
+361 verbose url resolved https://registry.npmjs.org/moment
+362 verbose request where is https://registry.npmjs.org/moment
+363 info trying registry request attempt 1 at 16:07:22
+364 http GET https://registry.npmjs.org/moment
+365 verbose request where is /process-env-brunch
+366 verbose request registry https://registry.npmjs.org/
+367 verbose url raw /process-env-brunch
+368 verbose url resolving [ 'https://registry.npmjs.org/', './process-env-brunch' ]
+369 verbose url resolved https://registry.npmjs.org/process-env-brunch
+370 verbose request where is https://registry.npmjs.org/process-env-brunch
+371 info trying registry request attempt 1 at 16:07:22
+372 http GET https://registry.npmjs.org/process-env-brunch
+373 verbose request where is /morgan
+374 verbose request registry https://registry.npmjs.org/
+375 verbose url raw /morgan
+376 verbose url resolving [ 'https://registry.npmjs.org/', './morgan' ]
+377 verbose url resolved https://registry.npmjs.org/morgan
+378 verbose request where is https://registry.npmjs.org/morgan
+379 info trying registry request attempt 1 at 16:07:22
+380 http GET https://registry.npmjs.org/morgan
+381 verbose request where is /sass-brunch
+382 verbose request registry https://registry.npmjs.org/
+383 verbose url raw /sass-brunch
+384 verbose url resolving [ 'https://registry.npmjs.org/', './sass-brunch' ]
+385 verbose url resolved https://registry.npmjs.org/sass-brunch
+386 verbose request where is https://registry.npmjs.org/sass-brunch
+387 info trying registry request attempt 1 at 16:07:22
+388 http GET https://registry.npmjs.org/sass-brunch
+389 verbose request where is /less-brunch
+390 verbose request registry https://registry.npmjs.org/
+391 verbose url raw /less-brunch
+392 verbose url resolving [ 'https://registry.npmjs.org/', './less-brunch' ]
+393 verbose url resolved https://registry.npmjs.org/less-brunch
+394 verbose request where is https://registry.npmjs.org/less-brunch
+395 info trying registry request attempt 1 at 16:07:22
+396 http GET https://registry.npmjs.org/less-brunch
+397 verbose request where is /stylus-brunch
+398 verbose request registry https://registry.npmjs.org/
+399 verbose url raw /stylus-brunch
+400 verbose url resolving [ 'https://registry.npmjs.org/', './stylus-brunch' ]
+401 verbose url resolved https://registry.npmjs.org/stylus-brunch
+402 verbose request where is https://registry.npmjs.org/stylus-brunch
+403 info trying registry request attempt 1 at 16:07:22
+404 http GET https://registry.npmjs.org/stylus-brunch
+405 verbose request where is /toobusy-js
+406 verbose request registry https://registry.npmjs.org/
+407 verbose url raw /toobusy-js
+408 verbose url resolving [ 'https://registry.npmjs.org/', './toobusy-js' ]
+409 verbose url resolved https://registry.npmjs.org/toobusy-js
+410 verbose request where is https://registry.npmjs.org/toobusy-js
+411 info trying registry request attempt 1 at 16:07:22
+412 http GET https://registry.npmjs.org/toobusy-js
+413 verbose request where is /uglify-js-brunch
+414 verbose request registry https://registry.npmjs.org/
+415 verbose url raw /uglify-js-brunch
+416 verbose url resolving [ 'https://registry.npmjs.org/', './uglify-js-brunch' ]
+417 verbose url resolved https://registry.npmjs.org/uglify-js-brunch
+418 verbose request where is https://registry.npmjs.org/uglify-js-brunch
+419 info trying registry request attempt 1 at 16:07:22
+420 http GET https://registry.npmjs.org/uglify-js-brunch
+421 verbose request where is /winston
+422 verbose request registry https://registry.npmjs.org/
+423 verbose url raw /winston
+424 verbose url resolving [ 'https://registry.npmjs.org/', './winston' ]
+425 verbose url resolved https://registry.npmjs.org/winston
+426 verbose request where is https://registry.npmjs.org/winston
+427 info trying registry request attempt 1 at 16:07:22
+428 http GET https://registry.npmjs.org/winston
+429 verbose request where is /winston-papertrail
+430 verbose request registry https://registry.npmjs.org/
+431 verbose url raw /winston-papertrail
+432 verbose url resolving [ 'https://registry.npmjs.org/', './winston-papertrail' ]
+433 verbose url resolved https://registry.npmjs.org/winston-papertrail
+434 verbose request where is https://registry.npmjs.org/winston-papertrail
+435 info trying registry request attempt 1 at 16:07:22
+436 http GET https://registry.npmjs.org/winston-papertrail
+437 verbose request where is /mocha-phantomjs
+438 verbose request registry https://registry.npmjs.org/
+439 verbose url raw /mocha-phantomjs
+440 verbose url resolving [ 'https://registry.npmjs.org/', './mocha-phantomjs' ]
+441 verbose url resolved https://registry.npmjs.org/mocha-phantomjs
+442 verbose request where is https://registry.npmjs.org/mocha-phantomjs
+443 info trying registry request attempt 1 at 16:07:22
+444 http GET https://registry.npmjs.org/mocha-phantomjs
+445 verbose request where is /bower
+446 verbose request registry https://registry.npmjs.org/
+447 verbose url raw /bower
+448 verbose url resolving [ 'https://registry.npmjs.org/', './bower' ]
+449 verbose url resolved https://registry.npmjs.org/bower
+450 verbose request where is https://registry.npmjs.org/bower
+451 info trying registry request attempt 1 at 16:07:22
+452 verbose etag "BWV73V8ZTPVRGMNI1EYSE0Y42"
+453 http GET https://registry.npmjs.org/bower
+454 verbose request where is /coffee-script
+455 verbose request registry https://registry.npmjs.org/
+456 verbose url raw /coffee-script
+457 verbose url resolving [ 'https://registry.npmjs.org/', './coffee-script' ]
+458 verbose url resolved https://registry.npmjs.org/coffee-script
+459 verbose request where is https://registry.npmjs.org/coffee-script
+460 info trying registry request attempt 1 at 16:07:22
+461 verbose etag "8C81D3WHWETHMIICVDO5U8UPZ"
+462 http GET https://registry.npmjs.org/coffee-script
+463 verbose request where is /brunch
+464 verbose request registry https://registry.npmjs.org/
+465 verbose url raw /brunch
+466 verbose url resolving [ 'https://registry.npmjs.org/', './brunch' ]
+467 verbose url resolved https://registry.npmjs.org/brunch
+468 verbose request where is https://registry.npmjs.org/brunch
+469 info trying registry request attempt 1 at 16:07:22
+470 verbose etag "A0TSRVQEK2NQ14MM1DTLAM0ND"
+471 http GET https://registry.npmjs.org/brunch
+472 verbose request where is /express
+473 verbose request registry https://registry.npmjs.org/
+474 verbose url raw /express
+475 verbose url resolving [ 'https://registry.npmjs.org/', './express' ]
+476 verbose url resolved https://registry.npmjs.org/express
+477 verbose request where is https://registry.npmjs.org/express
+478 info trying registry request attempt 1 at 16:07:22
+479 verbose etag "4MP59HRGSS396GSJXBIIL0O35"
+480 http GET https://registry.npmjs.org/express
+481 http 200 https://registry.npmjs.org/clean-css-brunch
+482 silly registry.get cb [ 200,
+482 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+482 silly registry.get     etag: '"9U92WK9N2J0M45E90BGP5WP5"',
+482 silly registry.get     'content-type': 'application/json',
+482 silly registry.get     'cache-control': 'max-age=60',
+482 silly registry.get     'content-length': '13700',
+482 silly registry.get     'accept-ranges': 'bytes',
+482 silly registry.get     date: 'Wed, 28 Oct 2015 13:07:22 GMT',
+482 silly registry.get     via: '1.1 varnish',
+482 silly registry.get     age: '0',
+482 silly registry.get     connection: 'keep-alive',
+482 silly registry.get     'x-served-by': 'cache-lhr6323-LHR',
+482 silly registry.get     'x-cache': 'MISS',
+482 silly registry.get     'x-cache-hits': '0',
+482 silly registry.get     'x-timer': 'S1446037642.747393,VS0,VE168',
+482 silly registry.get     vary: 'Accept' } ]
+483 silly addNameRange number 2 { name: 'clean-css-brunch',
+483 silly addNameRange   range: '>=1.0.0-0 <1.9.0-0',
+483 silly addNameRange   hasData: true }
+484 silly addNameRange versions [ 'clean-css-brunch',
+484 silly addNameRange   [ '1.0.0',
+484 silly addNameRange     '1.1.0',
+484 silly addNameRange     '1.1.1',
+484 silly addNameRange     '1.3.0',
+484 silly addNameRange     '1.4.0',
+484 silly addNameRange     '1.5.0',
+484 silly addNameRange     '1.5.1',
+484 silly addNameRange     '1.6.0',
+484 silly addNameRange     '1.7.0',
+484 silly addNameRange     '1.7.1',
+484 silly addNameRange     '1.7.2' ] ]
+485 verbose addNamed [ 'clean-css-brunch', '1.7.2' ]
+486 verbose addNamed [ '1.7.2', '1.7.2' ]
+487 silly lockFile 343b1949-clean-css-brunch-1-7-2 clean-css-brunch@1.7.2
+488 verbose lock clean-css-brunch@1.7.2 /home/lucie/.npm/343b1949-clean-css-brunch-1-7-2.lock
+489 silly lockFile 23d3ea52-runch-clean-css-brunch-1-7-2-tgz https://registry.npmjs.org/clean-css-brunch/-/clean-css-brunch-1.7.2.tgz
+490 verbose lock https://registry.npmjs.org/clean-css-brunch/-/clean-css-brunch-1.7.2.tgz /home/lucie/.npm/23d3ea52-runch-clean-css-brunch-1-7-2-tgz.lock
+491 verbose addRemoteTarball [ 'https://registry.npmjs.org/clean-css-brunch/-/clean-css-brunch-1.7.2.tgz',
+491 verbose addRemoteTarball   '14e85a9f95738c15cd859dc93f982a1997b020aa' ]
+492 info retry fetch attempt 1 at 16:07:23
+493 verbose fetch to= /tmp/npm-14363-1Hwxjjla/registry.npmjs.org/clean-css-brunch/-/clean-css-brunch-1.7.2.tgz
+494 http GET https://registry.npmjs.org/clean-css-brunch/-/clean-css-brunch-1.7.2.tgz
+495 http 200 https://registry.npmjs.org/coffeelint-brunch
+496 silly registry.get cb [ 200,
+496 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+496 silly registry.get     etag: '"BEDW32185IB7TJKOOFVCRQOM9"',
+496 silly registry.get     'content-type': 'application/json',
+496 silly registry.get     'cache-control': 'max-age=60',
+496 silly registry.get     'content-length': '11916',
+496 silly registry.get     'accept-ranges': 'bytes',
+496 silly registry.get     date: 'Wed, 28 Oct 2015 13:07:23 GMT',
+496 silly registry.get     via: '1.1 varnish',
+496 silly registry.get     age: '0',
+496 silly registry.get     connection: 'keep-alive',
+496 silly registry.get     'x-served-by': 'cache-lcy1130-LCY',
+496 silly registry.get     'x-cache': 'MISS',
+496 silly registry.get     'x-cache-hits': '0',
+496 silly registry.get     'x-timer': 'S1446037642.863941,VS0,VE179',
+496 silly registry.get     vary: 'Accept' } ]
+497 silly addNameRange number 2 { name: 'coffeelint-brunch',
+497 silly addNameRange   range: '>=1.0.0-0 <1.9.0-0',
+497 silly addNameRange   hasData: true }
+498 silly addNameRange versions [ 'coffeelint-brunch',
+498 silly addNameRange   [ '0.1.0',
+498 silly addNameRange     '1.4.0',
+498 silly addNameRange     '1.4.1',
+498 silly addNameRange     '1.4.2',
+498 silly addNameRange     '1.4.3',
+498 silly addNameRange     '1.4.4',
+498 silly addNameRange     '1.5.0',
+498 silly addNameRange     '1.7.0',
+498 silly addNameRange     '1.7.1' ] ]
+499 verbose addNamed [ 'coffeelint-brunch', '1.7.1' ]
+500 verbose addNamed [ '1.7.1', '1.7.1' ]
+501 silly lockFile 086383f9-coffeelint-brunch-1-7-1 coffeelint-brunch@1.7.1
+502 verbose lock coffeelint-brunch@1.7.1 /home/lucie/.npm/086383f9-coffeelint-brunch-1-7-1.lock
+503 silly lockFile 38ffaf51-unch-coffeelint-brunch-1-7-1-tgz https://registry.npmjs.org/coffeelint-brunch/-/coffeelint-brunch-1.7.1.tgz
+504 verbose lock https://registry.npmjs.org/coffeelint-brunch/-/coffeelint-brunch-1.7.1.tgz /home/lucie/.npm/38ffaf51-unch-coffeelint-brunch-1-7-1-tgz.lock
+505 verbose addRemoteTarball [ 'https://registry.npmjs.org/coffeelint-brunch/-/coffeelint-brunch-1.7.1.tgz',
+505 verbose addRemoteTarball   '34dfc8ae8ac2fc1d928bab544c52d514fd65ec47' ]
+506 info retry fetch attempt 1 at 16:07:23
+507 verbose fetch to= /tmp/npm-14363-1Hwxjjla/registry.npmjs.org/coffeelint-brunch/-/coffeelint-brunch-1.7.1.tgz
+508 http GET https://registry.npmjs.org/coffeelint-brunch/-/coffeelint-brunch-1.7.1.tgz
+509 http 200 https://registry.npmjs.org/auto-reload-brunch
+510 silly registry.get cb [ 200,
+510 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+510 silly registry.get     etag: '"F4OG4X85ZHPA0WKCKEM3BHNCM"',
+510 silly registry.get     'content-type': 'application/json',
+510 silly registry.get     'cache-control': 'max-age=60',
+510 silly registry.get     'content-length': '31709',
+510 silly registry.get     'accept-ranges': 'bytes',
+510 silly registry.get     date: 'Wed, 28 Oct 2015 13:07:22 GMT',
+510 silly registry.get     via: '1.1 varnish',
+510 silly registry.get     age: '0',
+510 silly registry.get     connection: 'keep-alive',
+510 silly registry.get     'x-served-by': 'cache-ams4136-AMS',
+510 silly registry.get     'x-cache': 'HIT',
+510 silly registry.get     'x-cache-hits': '1',
+510 silly registry.get     'x-timer': 'S1446037642.733804,VS0,VE178',
+510 silly registry.get     vary: 'Accept' } ]
+511 silly addNameRange number 2 { name: 'auto-reload-brunch',
+511 silly addNameRange   range: '>=1.0.0-0 <1.9.0-0',
+511 silly addNameRange   hasData: true }
+512 silly addNameRange versions [ 'auto-reload-brunch',
+512 silly addNameRange   [ '1.2.0',
+512 silly addNameRange     '1.3.0',
+512 silly addNameRange     '1.3.1',
+512 silly addNameRange     '1.3.2',
+512 silly addNameRange     '1.4.0',
+512 silly addNameRange     '1.5.0',
+512 silly addNameRange     '1.5.1',
+512 silly addNameRange     '1.5.2',
+512 silly addNameRange     '1.6.0',
+512 silly addNameRange     '1.6.1',
+512 silly addNameRange     '1.6.2',
+512 silly addNameRange     '1.6.3',
+512 silly addNameRange     '1.6.4',
+512 silly addNameRange     '1.6.5',
+512 silly addNameRange     '1.7.0',
+512 silly addNameRange     '1.7.1',
+512 silly addNameRange     '1.7.2',
+512 silly addNameRange     '1.7.3',
+512 silly addNameRange     '1.7.4',
+512 silly addNameRange     '1.7.5',
+512 silly addNameRange     '1.7.6',
+512 silly addNameRange     '1.7.7',
+512 silly addNameRange     '1.7.8',
+512 silly addNameRange     '1.8.0',
+512 silly addNameRange     '1.8.1' ] ]
+513 verbose addNamed [ 'auto-reload-brunch', '1.8.1' ]
+514 verbose addNamed [ '1.8.1', '1.8.1' ]
+515 silly lockFile 09a54b16-auto-reload-brunch-1-8-1 auto-reload-brunch@1.8.1
+516 verbose lock auto-reload-brunch@1.8.1 /home/lucie/.npm/09a54b16-auto-reload-brunch-1-8-1.lock
+517 silly lockFile def5f273-nch-auto-reload-brunch-1-8-1-tgz https://registry.npmjs.org/auto-reload-brunch/-/auto-reload-brunch-1.8.1.tgz
+518 verbose lock https://registry.npmjs.org/auto-reload-brunch/-/auto-reload-brunch-1.8.1.tgz /home/lucie/.npm/def5f273-nch-auto-reload-brunch-1-8-1-tgz.lock
+519 verbose addRemoteTarball [ 'https://registry.npmjs.org/auto-reload-brunch/-/auto-reload-brunch-1.8.1.tgz',
+519 verbose addRemoteTarball   'ce4f7d7727856e005465e7913bd0e2b904861bea' ]
+520 info retry fetch attempt 1 at 16:07:23
+521 verbose fetch to= /tmp/npm-14363-1Hwxjjla/registry.npmjs.org/auto-reload-brunch/-/auto-reload-brunch-1.8.1.tgz
+522 http GET https://registry.npmjs.org/auto-reload-brunch/-/auto-reload-brunch-1.8.1.tgz
+523 http 200 https://registry.npmjs.org/coffee-script-brunch
+524 silly registry.get cb [ 200,
+524 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+524 silly registry.get     etag: '"8EV640RB9SCHQ1VD8UZ04F116"',
+524 silly registry.get     'content-type': 'application/json',
+524 silly registry.get     'cache-control': 'max-age=60',
+524 silly registry.get     'content-length': '24849',
+524 silly registry.get     'accept-ranges': 'bytes',
+524 silly registry.get     date: 'Wed, 28 Oct 2015 13:07:22 GMT',
+524 silly registry.get     via: '1.1 varnish',
+524 silly registry.get     age: '0',
+524 silly registry.get     connection: 'keep-alive',
+524 silly registry.get     'x-served-by': 'cache-lcy1127-LCY',
+524 silly registry.get     'x-cache': 'MISS',
+524 silly registry.get     'x-cache-hits': '0',
+524 silly registry.get     'x-timer': 'S1446037642.788826,VS0,VE174',
+524 silly registry.get     vary: 'Accept' } ]
+525 silly addNameRange number 2 { name: 'coffee-script-brunch',
+525 silly addNameRange   range: '>=1.0.0-0 <1.9.0-0',
+525 silly addNameRange   hasData: true }
+526 silly addNameRange versions [ 'coffee-script-brunch',
+526 silly addNameRange   [ '1.0.0',
+526 silly addNameRange     '1.1.0',
+526 silly addNameRange     '1.1.1',
+526 silly addNameRange     '1.1.2',
+526 silly addNameRange     '1.2.0',
+526 silly addNameRange     '1.2.1',
+526 silly addNameRange     '1.2.2',
+526 silly addNameRange     '1.3.0',
+526 silly addNameRange     '1.3.1',
+526 silly addNameRange     '1.3.2',
+526 silly addNameRange     '1.4.0',
+526 silly addNameRange     '1.4.1',
+526 silly addNameRange     '1.5.0',
+526 silly addNameRange     '1.5.1',
+526 silly addNameRange     '1.7.0',
+526 silly addNameRange     '1.7.1',
+526 silly addNameRange     '1.7.2',
+526 silly addNameRange     '1.7.3',
+526 silly addNameRange     '1.8.0',
+526 silly addNameRange     '1.8.1',
+526 silly addNameRange     '1.8.2',
+526 silly addNameRange     '1.8.3' ] ]
+527 verbose addNamed [ 'coffee-script-brunch', '1.8.3' ]
+528 verbose addNamed [ '1.8.3', '1.8.3' ]
+529 silly lockFile 6a870782-coffee-script-brunch-1-8-3 coffee-script-brunch@1.8.3
+530 verbose lock coffee-script-brunch@1.8.3 /home/lucie/.npm/6a870782-coffee-script-brunch-1-8-3.lock
+531 silly lockFile 30ef8eec-h-coffee-script-brunch-1-8-3-tgz https://registry.npmjs.org/coffee-script-brunch/-/coffee-script-brunch-1.8.3.tgz
+532 verbose lock https://registry.npmjs.org/coffee-script-brunch/-/coffee-script-brunch-1.8.3.tgz /home/lucie/.npm/30ef8eec-h-coffee-script-brunch-1-8-3-tgz.lock
+533 verbose addRemoteTarball [ 'https://registry.npmjs.org/coffee-script-brunch/-/coffee-script-brunch-1.8.3.tgz',
+533 verbose addRemoteTarball   'd16ace054f33171f0ae13e5813201c4fa72df644' ]
+534 info retry fetch attempt 1 at 16:07:23
+535 verbose fetch to= /tmp/npm-14363-1Hwxjjla/registry.npmjs.org/coffee-script-brunch/-/coffee-script-brunch-1.8.3.tgz
+536 http GET https://registry.npmjs.org/coffee-script-brunch/-/coffee-script-brunch-1.8.3.tgz
+537 http 200 https://registry.npmjs.org/body-parser
+538 silly registry.get cb [ 200,
+538 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+538 silly registry.get     etag: '"5ZREZ402QKO7KY7B5NXZDVUXJ"',
+538 silly registry.get     'content-type': 'application/json',
+538 silly registry.get     'cache-control': 'max-age=60',
+538 silly registry.get     'content-length': '110684',
+538 silly registry.get     'accept-ranges': 'bytes',
+538 silly registry.get     date: 'Wed, 28 Oct 2015 13:07:22 GMT',
+538 silly registry.get     via: '1.1 varnish',
+538 silly registry.get     age: '44',
+538 silly registry.get     connection: 'keep-alive',
+538 silly registry.get     'x-served-by': 'cache-lcy1128-LCY',
+538 silly registry.get     'x-cache': 'HIT',
+538 silly registry.get     'x-cache-hits': '2',
+538 silly registry.get     'x-timer': 'S1446037642.739907,VS0,VE0',
+538 silly registry.get     vary: 'Accept' } ]
+539 silly addNameRange number 2 { name: 'body-parser',
+539 silly addNameRange   range: '>=1.5.2-0 <2.0.0-0',
+539 silly addNameRange   hasData: true }
+540 silly addNameRange versions [ 'body-parser',
+540 silly addNameRange   [ '1.0.0',
+540 silly addNameRange     '1.0.1',
+540 silly addNameRange     '1.0.2',
+540 silly addNameRange     '1.1.0',
+540 silly addNameRange     '1.1.1',
+540 silly addNameRange     '1.1.2',
+540 silly addNameRange     '1.2.0',
+540 silly addNameRange     '1.2.1',
+540 silly addNameRange     '1.2.2',
+540 silly addNameRange     '1.3.0',
+540 silly addNameRange     '1.3.1',
+540 silly addNameRange     '1.4.0',
+540 silly addNameRange     '1.4.1',
+540 silly addNameRange     '1.4.2',
+540 silly addNameRange     '1.4.3',
+540 silly addNameRange     '1.5.0',
+540 silly addNameRange     '1.5.1',
+540 silly addNameRange     '1.5.2',
+540 silly addNameRange     '1.6.0',
+540 silly addNameRange     '1.6.1',
+540 silly addNameRange     '1.6.2',
+540 silly addNameRange     '1.6.3',
+540 silly addNameRange     '1.6.4',
+540 silly addNameRange     '1.6.5',
+540 silly addNameRange     '1.6.6',
+540 silly addNameRange     '1.6.7',
+540 silly addNameRange     '1.7.0',
+540 silly addNameRange     '1.8.0',
+540 silly addNameRange     '1.8.1',
+540 silly addNameRange     '1.8.2',
+540 silly addNameRange     '1.8.3',
+540 silly addNameRange     '1.8.4',
+540 silly addNameRange     '1.9.0',
+540 silly addNameRange     '1.9.1',
+540 silly addNameRange     '1.9.2',
+540 silly addNameRange     '1.9.3',
+540 silly addNameRange     '1.10.0',
+540 silly addNameRange     '1.10.1',
+540 silly addNameRange     '1.10.2',
+540 silly addNameRange     '1.11.0',
+540 silly addNameRange     '1.12.0',
+540 silly addNameRange     '1.12.1',
+540 silly addNameRange     '1.12.2',
+540 silly addNameRange     '1.12.3',
+540 silly addNameRange     '1.12.4',
+540 silly addNameRange     '1.13.0',
+540 silly addNameRange     '1.13.1',
+540 silly addNameRange     '1.13.2',
+540 silly addNameRange     '1.13.3',
+540 silly addNameRange     '1.14.0',
+540 silly addNameRange     '1.14.1' ] ]
+541 verbose addNamed [ 'body-parser', '1.14.1' ]
+542 verbose addNamed [ '1.14.1', '1.14.1' ]
+543 silly lockFile 37e3018c-body-parser-1-14-1 body-parser@1.14.1
+544 verbose lock body-parser@1.14.1 /home/lucie/.npm/37e3018c-body-parser-1-14-1.lock
+545 silly lockFile e0f66322-dy-parser-body-parser-1-14-1-tgz https://registry.npmjs.org/body-parser/-/body-parser-1.14.1.tgz
+546 verbose lock https://registry.npmjs.org/body-parser/-/body-parser-1.14.1.tgz /home/lucie/.npm/e0f66322-dy-parser-body-parser-1-14-1-tgz.lock
+547 verbose addRemoteTarball [ 'https://registry.npmjs.org/body-parser/-/body-parser-1.14.1.tgz',
+547 verbose addRemoteTarball   'ffe921eba3ce8f191e2a8a8803844bd025f3c6dc' ]
+548 info retry fetch attempt 1 at 16:07:23
+549 verbose fetch to= /tmp/npm-14363-1Hwxjjla/registry.npmjs.org/body-parser/-/body-parser-1.14.1.tgz
+550 http GET https://registry.npmjs.org/body-parser/-/body-parser-1.14.1.tgz
+551 http 200 https://registry.npmjs.org/css-brunch
+552 silly registry.get cb [ 200,
+552 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+552 silly registry.get     etag: '"7GB393VM0UVG7509HQNQU15GE"',
+552 silly registry.get     'content-type': 'application/json',
+552 silly registry.get     'cache-control': 'max-age=60',
+552 silly registry.get     'content-length': '12771',
+552 silly registry.get     'accept-ranges': 'bytes',
+552 silly registry.get     date: 'Wed, 28 Oct 2015 13:07:23 GMT',
+552 silly registry.get     via: '1.1 varnish',
+552 silly registry.get     age: '0',
+552 silly registry.get     connection: 'keep-alive',
+552 silly registry.get     'x-served-by': 'cache-ams4136-AMS',
+552 silly registry.get     'x-cache': 'HIT',
+552 silly registry.get     'x-cache-hits': '1',
+552 silly registry.get     'x-timer': 'S1446037643.283009,VS0,VE97',
+552 silly registry.get     vary: 'Accept' } ]
+553 silly addNameRange number 2 { name: 'css-brunch',
+553 silly addNameRange   range: '>=1.0.0-0 <1.9.0-0',
+553 silly addNameRange   hasData: true }
+554 silly addNameRange versions [ 'css-brunch',
+554 silly addNameRange   [ '1.0.0',
+554 silly addNameRange     '1.1.0',
+554 silly addNameRange     '1.1.1',
+554 silly addNameRange     '1.3.0',
+554 silly addNameRange     '1.5.0',
+554 silly addNameRange     '1.5.1',
+554 silly addNameRange     '1.6.0',
+554 silly addNameRange     '1.7.0' ] ]
+555 verbose addNamed [ 'css-brunch', '1.7.0' ]
+556 verbose addNamed [ '1.7.0', '1.7.0' ]
+557 silly lockFile c3390392-css-brunch-1-7-0 css-brunch@1.7.0
+558 verbose lock css-brunch@1.7.0 /home/lucie/.npm/c3390392-css-brunch-1-7-0.lock
+559 silly lockFile e07423bc--css-brunch-css-brunch-1-7-0-tgz https://registry.npmjs.org/css-brunch/-/css-brunch-1.7.0.tgz
+560 verbose lock https://registry.npmjs.org/css-brunch/-/css-brunch-1.7.0.tgz /home/lucie/.npm/e07423bc--css-brunch-css-brunch-1-7-0-tgz.lock
+561 verbose addRemoteTarball [ 'https://registry.npmjs.org/css-brunch/-/css-brunch-1.7.0.tgz',
+561 verbose addRemoteTarball   '258c1b038a970840af0c6a8e5582f614050294da' ]
+562 info retry fetch attempt 1 at 16:07:23
+563 verbose fetch to= /tmp/npm-14363-1Hwxjjla/registry.npmjs.org/css-brunch/-/css-brunch-1.7.0.tgz
+564 http GET https://registry.npmjs.org/css-brunch/-/css-brunch-1.7.0.tgz
+565 http 200 https://registry.npmjs.org/connect-timeout
+566 silly registry.get cb [ 200,
+566 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+566 silly registry.get     etag: '"8QV2U22IOEMMP3MGZP02T95SN"',
+566 silly registry.get     'content-type': 'application/json',
+566 silly registry.get     'cache-control': 'max-age=60',
+566 silly registry.get     'content-length': '30256',
+566 silly registry.get     'accept-ranges': 'bytes',
+566 silly registry.get     date: 'Wed, 28 Oct 2015 13:07:23 GMT',
+566 silly registry.get     via: '1.1 varnish',
+566 silly registry.get     age: '0',
+566 silly registry.get     connection: 'keep-alive',
+566 silly registry.get     'x-served-by': 'cache-lcy1130-LCY',
+566 silly registry.get     'x-cache': 'HIT',
+566 silly registry.get     'x-cache-hits': '1',
+566 silly registry.get     'x-timer': 'S1446037643.207370,VS0,VE87',
+566 silly registry.get     vary: 'Accept' } ]
+567 silly addNameRange number 2 { name: 'connect-timeout',
+567 silly addNameRange   range: '>=1.2.2-0 <2.0.0-0',
+567 silly addNameRange   hasData: true }
+568 silly addNameRange versions [ 'connect-timeout',
+568 silly addNameRange   [ '0.0.1',
+568 silly addNameRange     '1.0.0',
+568 silly addNameRange     '1.0.1',
+568 silly addNameRange     '1.1.0',
+568 silly addNameRange     '1.1.1',
+568 silly addNameRange     '1.2.0',
+568 silly addNameRange     '1.2.1',
+568 silly addNameRange     '1.2.2',
+568 silly addNameRange     '1.3.0',
+568 silly addNameRange     '1.4.0',
+568 silly addNameRange     '1.5.0',
+568 silly addNameRange     '1.6.0',
+568 silly addNameRange     '1.6.1',
+568 silly addNameRange     '1.6.2',
+568 silly addNameRange     '1.7.0' ] ]
+569 verbose addNamed [ 'connect-timeout', '1.7.0' ]
+570 verbose addNamed [ '1.7.0', '1.7.0' ]
+571 silly lockFile 87e68219-connect-timeout-1-7-0 connect-timeout@1.7.0
+572 verbose lock connect-timeout@1.7.0 /home/lucie/.npm/87e68219-connect-timeout-1-7-0.lock
+573 silly lockFile 05522c19-imeout-connect-timeout-1-7-0-tgz https://registry.npmjs.org/connect-timeout/-/connect-timeout-1.7.0.tgz
+574 verbose lock https://registry.npmjs.org/connect-timeout/-/connect-timeout-1.7.0.tgz /home/lucie/.npm/05522c19-imeout-connect-timeout-1-7-0-tgz.lock
+575 verbose addRemoteTarball [ 'https://registry.npmjs.org/connect-timeout/-/connect-timeout-1.7.0.tgz',
+575 verbose addRemoteTarball   '319daaabb6568f8281f12b030c0764637498d05a' ]
+576 info retry fetch attempt 1 at 16:07:24
+577 verbose fetch to= /tmp/npm-14363-1Hwxjjla/registry.npmjs.org/connect-timeout/-/connect-timeout-1.7.0.tgz
+578 http GET https://registry.npmjs.org/connect-timeout/-/connect-timeout-1.7.0.tgz
+579 http 200 https://registry.npmjs.org/javascript-brunch
+580 silly registry.get cb [ 200,
+580 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+580 silly registry.get     etag: '"3BMJ7P1CYHS2AQISJPTKF5FGO"',
+580 silly registry.get     'content-type': 'application/json',
+580 silly registry.get     'cache-control': 'max-age=60',
+580 silly registry.get     'content-length': '12575',
+580 silly registry.get     'accept-ranges': 'bytes',
+580 silly registry.get     date: 'Wed, 28 Oct 2015 13:07:23 GMT',
+580 silly registry.get     via: '1.1 varnish',
+580 silly registry.get     age: '0',
+580 silly registry.get     connection: 'keep-alive',
+580 silly registry.get     'x-served-by': 'cache-lcy1128-LCY',
+580 silly registry.get     'x-cache': 'MISS',
+580 silly registry.get     'x-cache-hits': '0',
+580 silly registry.get     'x-timer': 'S1446037643.462711,VS0,VE179',
+580 silly registry.get     vary: 'Accept' } ]
+581 http 200 https://registry.npmjs.org/compression
+582 silly registry.get cb [ 200,
+582 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+582 silly registry.get     etag: '"EKH35V7CVOD32MQUW72FG07ZT"',
+582 silly registry.get     'content-type': 'application/json',
+582 silly registry.get     'cache-control': 'max-age=60',
+582 silly registry.get     'content-length': '60866',
+582 silly registry.get     'accept-ranges': 'bytes',
+582 silly registry.get     date: 'Wed, 28 Oct 2015 13:07:23 GMT',
+582 silly registry.get     via: '1.1 varnish',
+582 silly registry.get     age: '0',
+582 silly registry.get     connection: 'keep-alive',
+582 silly registry.get     'x-served-by': 'cache-lhr6323-LHR',
+582 silly registry.get     'x-cache': 'HIT',
+582 silly registry.get     'x-cache-hits': '1',
+582 silly registry.get     'x-timer': 'S1446037643.121550,VS0,VE98',
+582 silly registry.get     vary: 'Accept' } ]
+583 http 200 https://registry.npmjs.org/json-brunch
+584 silly registry.get cb [ 200,
+584 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+584 silly registry.get     etag: '"E5MB0D093O227X74S6AGHEU4C"',
+584 silly registry.get     'content-type': 'application/json',
+584 silly registry.get     'cache-control': 'max-age=60',
+584 silly registry.get     'content-length': '3553',
+584 silly registry.get     'accept-ranges': 'bytes',
+584 silly registry.get     date: 'Wed, 28 Oct 2015 13:07:23 GMT',
+584 silly registry.get     via: '1.1 varnish',
+584 silly registry.get     age: '0',
+584 silly registry.get     connection: 'keep-alive',
+584 silly registry.get     'x-served-by': 'cache-ams4136-AMS',
+584 silly registry.get     'x-cache': 'MISS',
+584 silly registry.get     'x-cache-hits': '0',
+584 silly registry.get     'x-timer': 'S1446037643.652108,VS0,VE187',
+584 silly registry.get     vary: 'Accept' } ]
+585 silly addNameRange number 2 { name: 'javascript-brunch',
+585 silly addNameRange   range: '>=1.0.0-0 <1.9.0-0',
+585 silly addNameRange   hasData: true }
+586 silly addNameRange versions [ 'javascript-brunch',
+586 silly addNameRange   [ '1.0.0',
+586 silly addNameRange     '1.1.0',
+586 silly addNameRange     '1.1.1',
+586 silly addNameRange     '1.3.0',
+586 silly addNameRange     '1.5.0',
+586 silly addNameRange     '1.5.1',
+586 silly addNameRange     '1.6.0',
+586 silly addNameRange     '1.7.0',
+586 silly addNameRange     '1.7.1',
+586 silly addNameRange     '1.8.0' ] ]
+587 verbose addNamed [ 'javascript-brunch', '1.8.0' ]
+588 verbose addNamed [ '1.8.0', '1.8.0' ]
+589 silly lockFile a03396de-javascript-brunch-1-8-0 javascript-brunch@1.8.0
+590 verbose lock javascript-brunch@1.8.0 /home/lucie/.npm/a03396de-javascript-brunch-1-8-0.lock
+591 silly addNameRange number 2 { name: 'compression',
+591 silly addNameRange   range: '>=1.0.11-0 <2.0.0-0',
+591 silly addNameRange   hasData: true }
+592 silly addNameRange versions [ 'compression',
+592 silly addNameRange   [ '1.0.0',
+592 silly addNameRange     '1.0.1',
+592 silly addNameRange     '1.0.2',
+592 silly addNameRange     '1.0.3',
+592 silly addNameRange     '1.0.4',
+592 silly addNameRange     '1.0.5',
+592 silly addNameRange     '1.0.6',
+592 silly addNameRange     '1.0.7',
+592 silly addNameRange     '1.0.8',
+592 silly addNameRange     '1.0.9',
+592 silly addNameRange     '1.0.10',
+592 silly addNameRange     '1.0.11',
+592 silly addNameRange     '1.1.0',
+592 silly addNameRange     '1.1.1',
+592 silly addNameRange     '1.1.2',
+592 silly addNameRange     '1.2.0',
+592 silly addNameRange     '1.2.1',
+592 silly addNameRange     '1.2.2',
+592 silly addNameRange     '1.3.0',
+592 silly addNameRange     '1.3.1',
+592 silly addNameRange     '1.4.0',
+592 silly addNameRange     '1.4.1',
+592 silly addNameRange     '1.4.2',
+592 silly addNameRange     '1.4.3',
+592 silly addNameRange     '1.4.4',
+592 silly addNameRange     '1.5.0',
+592 silly addNameRange     '1.5.1',
+592 silly addNameRange     '1.5.2',
+592 silly addNameRange     '1.6.0' ] ]
+593 verbose addNamed [ 'compression', '1.6.0' ]
+594 verbose addNamed [ '1.6.0', '1.6.0' ]
+595 silly lockFile c8d3f894-compression-1-6-0 compression@1.6.0
+596 verbose lock compression@1.6.0 /home/lucie/.npm/c8d3f894-compression-1-6-0.lock
+597 silly addNameRange number 2 { name: 'json-brunch',
+597 silly addNameRange   range: '>=1.0.0-0 <1.9.0-0',
+597 silly addNameRange   hasData: true }
+598 silly addNameRange versions [ 'json-brunch', [ '1.5.0', '1.5.4' ] ]
+599 verbose addNamed [ 'json-brunch', '1.5.4' ]
+600 verbose addNamed [ '1.5.4', '1.5.4' ]
+601 silly lockFile cc38eb77-json-brunch-1-5-4 json-brunch@1.5.4
+602 verbose lock json-brunch@1.5.4 /home/lucie/.npm/cc38eb77-json-brunch-1-5-4.lock
+603 silly lockFile ff384f7a-unch-javascript-brunch-1-8-0-tgz https://registry.npmjs.org/javascript-brunch/-/javascript-brunch-1.8.0.tgz
+604 verbose lock https://registry.npmjs.org/javascript-brunch/-/javascript-brunch-1.8.0.tgz /home/lucie/.npm/ff384f7a-unch-javascript-brunch-1-8-0-tgz.lock
+605 silly lockFile 70622089-ompression-compression-1-6-0-tgz https://registry.npmjs.org/compression/-/compression-1.6.0.tgz
+606 verbose lock https://registry.npmjs.org/compression/-/compression-1.6.0.tgz /home/lucie/.npm/70622089-ompression-compression-1-6-0-tgz.lock
+607 silly lockFile 6fc1e98d-son-brunch-json-brunch-1-5-4-tgz https://registry.npmjs.org/json-brunch/-/json-brunch-1.5.4.tgz
+608 verbose lock https://registry.npmjs.org/json-brunch/-/json-brunch-1.5.4.tgz /home/lucie/.npm/6fc1e98d-son-brunch-json-brunch-1-5-4-tgz.lock
+609 verbose addRemoteTarball [ 'https://registry.npmjs.org/javascript-brunch/-/javascript-brunch-1.8.0.tgz',
+609 verbose addRemoteTarball   '9d01b681f9e4f66bbe51cc1dbb70325ef3d831a5' ]
+610 verbose addRemoteTarball [ 'https://registry.npmjs.org/compression/-/compression-1.6.0.tgz',
+610 verbose addRemoteTarball   '886465ffa4a19f9b73b41682db77d28179b30920' ]
+611 verbose addRemoteTarball [ 'https://registry.npmjs.org/json-brunch/-/json-brunch-1.5.4.tgz',
+611 verbose addRemoteTarball   '255da6f0cb0b5683ffe91521d9512a8f9b2ddcae' ]
+612 info retry fetch attempt 1 at 16:07:24
+613 verbose fetch to= /tmp/npm-14363-1Hwxjjla/registry.npmjs.org/javascript-brunch/-/javascript-brunch-1.8.0.tgz
+614 info retry fetch attempt 1 at 16:07:24
+615 verbose fetch to= /tmp/npm-14363-1Hwxjjla/registry.npmjs.org/compression/-/compression-1.6.0.tgz
+616 info retry fetch attempt 1 at 16:07:24
+617 verbose fetch to= /tmp/npm-14363-1Hwxjjla/registry.npmjs.org/json-brunch/-/json-brunch-1.5.4.tgz
+618 http GET https://registry.npmjs.org/javascript-brunch/-/javascript-brunch-1.8.0.tgz
+619 http GET https://registry.npmjs.org/compression/-/compression-1.6.0.tgz
+620 http GET https://registry.npmjs.org/json-brunch/-/json-brunch-1.5.4.tgz
+621 http 200 https://registry.npmjs.org/handlebars-brunch
+622 silly registry.get cb [ 200,
+622 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+622 silly registry.get     etag: '"6GMYKS53JVG0OQB0LOFVFT6BF"',
+622 silly registry.get     'content-type': 'application/json',
+622 silly registry.get     'cache-control': 'max-age=60',
+622 silly registry.get     'content-length': '28373',
+622 silly registry.get     'accept-ranges': 'bytes',
+622 silly registry.get     date: 'Wed, 28 Oct 2015 13:07:23 GMT',
+622 silly registry.get     via: '1.1 varnish',
+622 silly registry.get     age: '0',
+622 silly registry.get     connection: 'keep-alive',
+622 silly registry.get     'x-served-by': 'cache-lcy1127-LCY',
+622 silly registry.get     'x-cache': 'MISS',
+622 silly registry.get     'x-cache-hits': '0',
+622 silly registry.get     'x-timer': 'S1446037643.386306,VS0,VE158',
+622 silly registry.get     vary: 'Accept' } ]
+623 silly addNameRange number 2 { name: 'handlebars-brunch',
+623 silly addNameRange   range: '>=1.0.0-0 <1.9.0-0',
+623 silly addNameRange   hasData: true }
+624 silly addNameRange versions [ 'handlebars-brunch',
+624 silly addNameRange   [ '1.0.0',
+624 silly addNameRange     '1.0.1',
+624 silly addNameRange     '1.1.0',
+624 silly addNameRange     '1.1.1',
+624 silly addNameRange     '1.1.2',
+624 silly addNameRange     '1.3.0',
+624 silly addNameRange     '1.4.0',
+624 silly addNameRange     '1.5.0',
+624 silly addNameRange     '1.5.1',
+624 silly addNameRange     '1.5.2',
+624 silly addNameRange     '1.5.3',
+624 silly addNameRange     '1.5.4',
+624 silly addNameRange     '1.7.0',
+624 silly addNameRange     '1.7.1',
+624 silly addNameRange     '1.7.2',
+624 silly addNameRange     '1.7.3',
+624 silly addNameRange     '1.7.4',
+624 silly addNameRange     '1.7.5',
+624 silly addNameRange     '1.7.6',
+624 silly addNameRange     '1.7.7',
+624 silly addNameRange     '1.7.8',
+624 silly addNameRange     '1.8.0',
+624 silly addNameRange     '1.9.0',
+624 silly addNameRange     '1.9.1' ] ]
+625 verbose addNamed [ 'handlebars-brunch', '1.8.0' ]
+626 verbose addNamed [ '1.8.0', '1.8.0' ]
+627 silly lockFile 8d971229-handlebars-brunch-1-8-0 handlebars-brunch@1.8.0
+628 verbose lock handlebars-brunch@1.8.0 /home/lucie/.npm/8d971229-handlebars-brunch-1-8-0.lock
+629 silly lockFile dc281f92-unch-handlebars-brunch-1-8-0-tgz https://registry.npmjs.org/handlebars-brunch/-/handlebars-brunch-1.8.0.tgz
+630 verbose lock https://registry.npmjs.org/handlebars-brunch/-/handlebars-brunch-1.8.0.tgz /home/lucie/.npm/dc281f92-unch-handlebars-brunch-1-8-0-tgz.lock
+631 verbose addRemoteTarball [ 'https://registry.npmjs.org/handlebars-brunch/-/handlebars-brunch-1.8.0.tgz',
+631 verbose addRemoteTarball   '985da682b6c44c1a24e264c92e1d7ef052e1915e' ]
+632 info retry fetch attempt 1 at 16:07:24
+633 verbose fetch to= /tmp/npm-14363-1Hwxjjla/registry.npmjs.org/handlebars-brunch/-/handlebars-brunch-1.8.0.tgz
+634 http GET https://registry.npmjs.org/handlebars-brunch/-/handlebars-brunch-1.8.0.tgz
+635 http 200 https://registry.npmjs.org/process-env-brunch
+636 silly registry.get cb [ 200,
+636 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+636 silly registry.get     etag: '"BG48JFRMEZPMAKTB8TZ6G4QAI"',
+636 silly registry.get     'content-type': 'application/json',
+636 silly registry.get     'cache-control': 'max-age=60',
+636 silly registry.get     'content-length': '7623',
+636 silly registry.get     'accept-ranges': 'bytes',
+636 silly registry.get     date: 'Wed, 28 Oct 2015 13:07:24 GMT',
+636 silly registry.get     via: '1.1 varnish',
+636 silly registry.get     age: '0',
+636 silly registry.get     connection: 'keep-alive',
+636 silly registry.get     'x-served-by': 'cache-lcy1128-LCY',
+636 silly registry.get     'x-cache': 'MISS',
+636 silly registry.get     'x-cache-hits': '0',
+636 silly registry.get     'x-timer': 'S1446037644.091104,VS0,VE172',
+636 silly registry.get     vary: 'Accept' } ]
+637 silly addNameRange number 2 { name: 'process-env-brunch',
+637 silly addNameRange   range: '>=1.4.4-d <1.5.0-0',
+637 silly addNameRange   hasData: true }
+638 silly addNameRange versions [ 'process-env-brunch',
+638 silly addNameRange   [ '1.4.4', '1.4.4-a', '1.4.4-b', '1.4.4-c', '1.4.4-d' ] ]
+639 verbose addNamed [ 'process-env-brunch', '1.4.4-d' ]
+640 verbose addNamed [ '1.4.4-d', '1.4.4-d' ]
+641 silly lockFile 495ef5fd-process-env-brunch-1-4-4-d process-env-brunch@1.4.4-d
+642 verbose lock process-env-brunch@1.4.4-d /home/lucie/.npm/495ef5fd-process-env-brunch-1-4-4-d.lock
+643 silly lockFile 263443ea-ch-process-env-brunch-1-4-4d-tgz https://registry.npmjs.org/process-env-brunch/-/process-env-brunch-1.4.4d.tgz
+644 verbose lock https://registry.npmjs.org/process-env-brunch/-/process-env-brunch-1.4.4d.tgz /home/lucie/.npm/263443ea-ch-process-env-brunch-1-4-4d-tgz.lock
+645 verbose addRemoteTarball [ 'https://registry.npmjs.org/process-env-brunch/-/process-env-brunch-1.4.4d.tgz',
+645 verbose addRemoteTarball   '61638f6ed93645ab7f513bea7b10854eea650f66' ]
+646 info retry fetch attempt 1 at 16:07:24
+647 verbose fetch to= /tmp/npm-14363-1Hwxjjla/registry.npmjs.org/process-env-brunch/-/process-env-brunch-1.4.4d.tgz
+648 http GET https://registry.npmjs.org/process-env-brunch/-/process-env-brunch-1.4.4d.tgz
+649 http 200 https://registry.npmjs.org/clean-css-brunch/-/clean-css-brunch-1.7.2.tgz
+650 silly lockFile 23d3ea52-runch-clean-css-brunch-1-7-2-tgz https://registry.npmjs.org/clean-css-brunch/-/clean-css-brunch-1.7.2.tgz
+651 silly lockFile 23d3ea52-runch-clean-css-brunch-1-7-2-tgz https://registry.npmjs.org/clean-css-brunch/-/clean-css-brunch-1.7.2.tgz
+652 silly lockFile 343b1949-clean-css-brunch-1-7-2 clean-css-brunch@1.7.2
+653 silly lockFile 343b1949-clean-css-brunch-1-7-2 clean-css-brunch@1.7.2
+654 silly lockFile c0769678-clean-css-brunch-1-0-1-9 clean-css-brunch@>= 1.0 < 1.9
+655 silly lockFile c0769678-clean-css-brunch-1-0-1-9 clean-css-brunch@>= 1.0 < 1.9
+656 http 200 https://registry.npmjs.org/auto-reload-brunch/-/auto-reload-brunch-1.8.1.tgz
+657 silly lockFile def5f273-nch-auto-reload-brunch-1-8-1-tgz https://registry.npmjs.org/auto-reload-brunch/-/auto-reload-brunch-1.8.1.tgz
+658 silly lockFile def5f273-nch-auto-reload-brunch-1-8-1-tgz https://registry.npmjs.org/auto-reload-brunch/-/auto-reload-brunch-1.8.1.tgz
+659 silly lockFile 09a54b16-auto-reload-brunch-1-8-1 auto-reload-brunch@1.8.1
+660 silly lockFile 09a54b16-auto-reload-brunch-1-8-1 auto-reload-brunch@1.8.1
+661 silly lockFile be516524-auto-reload-brunch-1-0-1-9 auto-reload-brunch@>= 1.0 < 1.9
+662 silly lockFile be516524-auto-reload-brunch-1-0-1-9 auto-reload-brunch@>= 1.0 < 1.9
+663 http 200 https://registry.npmjs.org/morgan
+664 silly registry.get cb [ 200,
+664 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+664 silly registry.get     etag: '"4XUYK78AX6OPW2P3IXCSVOVFR"',
+664 silly registry.get     'content-type': 'application/json',
+664 silly registry.get     'cache-control': 'max-age=60',
+664 silly registry.get     'content-length': '42453',
+664 silly registry.get     'accept-ranges': 'bytes',
+664 silly registry.get     date: 'Wed, 28 Oct 2015 13:07:24 GMT',
+664 silly registry.get     via: '1.1 varnish',
+664 silly registry.get     age: '21',
+664 silly registry.get     connection: 'keep-alive',
+664 silly registry.get     'x-served-by': 'cache-lhr6323-LHR',
+664 silly registry.get     'x-cache': 'HIT',
+664 silly registry.get     'x-cache-hits': '1',
+664 silly registry.get     'x-timer': 'S1446037644.222332,VS0,VE1',
+664 silly registry.get     vary: 'Accept' } ]
+665 silly addNameRange number 2 { name: 'morgan', range: '>=1.2.3-0 <2.0.0-0', hasData: true }
+666 silly addNameRange versions [ 'morgan',
+666 silly addNameRange   [ '1.0.0',
+666 silly addNameRange     '1.0.1',
+666 silly addNameRange     '1.1.0',
+666 silly addNameRange     '1.1.1',
+666 silly addNameRange     '1.2.0',
+666 silly addNameRange     '1.2.1',
+666 silly addNameRange     '1.2.2',
+666 silly addNameRange     '1.2.3',
+666 silly addNameRange     '1.3.0',
+666 silly addNameRange     '1.3.1',
+666 silly addNameRange     '1.3.2',
+666 silly addNameRange     '1.4.0',
+666 silly addNameRange     '1.4.1',
+666 silly addNameRange     '1.5.0',
+666 silly addNameRange     '1.5.1',
+666 silly addNameRange     '1.5.2',
+666 silly addNameRange     '1.5.3',
+666 silly addNameRange     '1.6.0',
+666 silly addNameRange     '1.6.1' ] ]
+667 verbose addNamed [ 'morgan', '1.6.1' ]
+668 verbose addNamed [ '1.6.1', '1.6.1' ]
+669 silly lockFile 4ffca82c-morgan-1-6-1 morgan@1.6.1
+670 verbose lock morgan@1.6.1 /home/lucie/.npm/4ffca82c-morgan-1-6-1.lock
+671 silly lockFile 0ef8c228-pmjs-org-morgan-morgan-1-6-1-tgz https://registry.npmjs.org/morgan/-/morgan-1.6.1.tgz
+672 verbose lock https://registry.npmjs.org/morgan/-/morgan-1.6.1.tgz /home/lucie/.npm/0ef8c228-pmjs-org-morgan-morgan-1-6-1-tgz.lock
+673 verbose addRemoteTarball [ 'https://registry.npmjs.org/morgan/-/morgan-1.6.1.tgz',
+673 verbose addRemoteTarball   '5fd818398c6819cba28a7cd6664f292fe1c0bbf2' ]
+674 info retry fetch attempt 1 at 16:07:24
+675 verbose fetch to= /tmp/npm-14363-1Hwxjjla/registry.npmjs.org/morgan/-/morgan-1.6.1.tgz
+676 http GET https://registry.npmjs.org/morgan/-/morgan-1.6.1.tgz
+677 http 200 https://registry.npmjs.org/coffeelint-brunch/-/coffeelint-brunch-1.7.1.tgz
+678 silly lockFile 38ffaf51-unch-coffeelint-brunch-1-7-1-tgz https://registry.npmjs.org/coffeelint-brunch/-/coffeelint-brunch-1.7.1.tgz
+679 silly lockFile 38ffaf51-unch-coffeelint-brunch-1-7-1-tgz https://registry.npmjs.org/coffeelint-brunch/-/coffeelint-brunch-1.7.1.tgz
+680 silly lockFile 086383f9-coffeelint-brunch-1-7-1 coffeelint-brunch@1.7.1
+681 silly lockFile 086383f9-coffeelint-brunch-1-7-1 coffeelint-brunch@1.7.1
+682 silly lockFile cd30b0f6-coffeelint-brunch-1-0-1-9 coffeelint-brunch@>= 1.0 < 1.9
+683 silly lockFile cd30b0f6-coffeelint-brunch-1-0-1-9 coffeelint-brunch@>= 1.0 < 1.9
+684 http 200 https://registry.npmjs.org/css-brunch/-/css-brunch-1.7.0.tgz
+685 silly lockFile e07423bc--css-brunch-css-brunch-1-7-0-tgz https://registry.npmjs.org/css-brunch/-/css-brunch-1.7.0.tgz
+686 silly lockFile e07423bc--css-brunch-css-brunch-1-7-0-tgz https://registry.npmjs.org/css-brunch/-/css-brunch-1.7.0.tgz
+687 silly lockFile c3390392-css-brunch-1-7-0 css-brunch@1.7.0
+688 silly lockFile c3390392-css-brunch-1-7-0 css-brunch@1.7.0
+689 silly lockFile bdda385c-css-brunch-1-0-1-9 css-brunch@>= 1.0 < 1.9
+690 silly lockFile bdda385c-css-brunch-1-0-1-9 css-brunch@>= 1.0 < 1.9
+691 http 200 https://registry.npmjs.org/connect-timeout/-/connect-timeout-1.7.0.tgz
+692 http 200 https://registry.npmjs.org/moment
+693 silly registry.get cb [ 200,
+693 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+693 silly registry.get     etag: '"4Q8U1PD5NBIRJIPNRH53RL8CG"',
+693 silly registry.get     'content-type': 'application/json',
+693 silly registry.get     'cache-control': 'max-age=60',
+693 silly registry.get     'content-length': '66291',
+693 silly registry.get     'accept-ranges': 'bytes',
+693 silly registry.get     date: 'Wed, 28 Oct 2015 13:07:24 GMT',
+693 silly registry.get     via: '1.1 varnish',
+693 silly registry.get     age: '4',
+693 silly registry.get     connection: 'keep-alive',
+693 silly registry.get     'x-served-by': 'cache-lcy1130-LCY',
+693 silly registry.get     'x-cache': 'HIT',
+693 silly registry.get     'x-cache-hits': '1',
+693 silly registry.get     'x-timer': 'S1446037644.088268,VS0,VE0',
+693 silly registry.get     vary: 'Accept' } ]
+694 http 200 https://registry.npmjs.org/sass-brunch
+695 silly registry.get cb [ 200,
+695 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+695 silly registry.get     etag: '"DKQMZJ4GWQA44QTPLTW9L1ZEZ"',
+695 silly registry.get     'content-type': 'application/json',
+695 silly registry.get     'cache-control': 'max-age=60',
+695 silly registry.get     'content-length': '36252',
+695 silly registry.get     'accept-ranges': 'bytes',
+695 silly registry.get     date: 'Wed, 28 Oct 2015 13:07:24 GMT',
+695 silly registry.get     via: '1.1 varnish',
+695 silly registry.get     age: '0',
+695 silly registry.get     connection: 'keep-alive',
+695 silly registry.get     'x-served-by': 'cache-ams4136-AMS',
+695 silly registry.get     'x-cache': 'MISS',
+695 silly registry.get     'x-cache-hits': '0',
+695 silly registry.get     'x-timer': 'S1446037644.229201,VS0,VE100',
+695 silly registry.get     vary: 'Accept' } ]
+696 silly addNameRange number 2 { name: 'sass-brunch',
+696 silly addNameRange   range: '>=1.8.11-0 <2.0.0-0',
+696 silly addNameRange   hasData: true }
+697 silly addNameRange versions [ 'sass-brunch',
+697 silly addNameRange   [ '1.0.0',
+697 silly addNameRange     '1.1.0',
+697 silly addNameRange     '1.1.1',
+697 silly addNameRange     '1.1.2',
+697 silly addNameRange     '1.1.3',
+697 silly addNameRange     '1.3.0',
+697 silly addNameRange     '1.3.1',
+697 silly addNameRange     '1.4.0',
+697 silly addNameRange     '1.4.1',
+697 silly addNameRange     '1.4.2',
+697 silly addNameRange     '1.5.0',
+697 silly addNameRange     '1.5.1',
+697 silly addNameRange     '1.5.2',
+697 silly addNameRange     '1.6.0',
+697 silly addNameRange     '1.6.1',
+697 silly addNameRange     '1.7.0',
+697 silly addNameRange     '1.7.1',
+697 silly addNameRange     '1.7.2',
+697 silly addNameRange     '1.8.0',
+697 silly addNameRange     '1.8.1',
+697 silly addNameRange     '1.8.2',
+697 silly addNameRange     '1.8.3',
+697 silly addNameRange     '1.8.4',
+697 silly addNameRange     '1.8.5',
+697 silly addNameRange     '1.8.6',
+697 silly addNameRange     '1.8.7',
+697 silly addNameRange     '1.8.8',
+697 silly addNameRange     '1.8.9',
+697 silly addNameRange     '1.8.10',
+697 silly addNameRange     '1.8.11',
+697 silly addNameRange     '1.9.0',
+697 silly addNameRange     '1.9.1' ] ]
+698 verbose addNamed [ 'sass-brunch', '1.9.1' ]
+699 verbose addNamed [ '1.9.1', '1.9.1' ]
+700 silly lockFile 6b07d286-sass-brunch-1-9-1 sass-brunch@1.9.1
+701 verbose lock sass-brunch@1.9.1 /home/lucie/.npm/6b07d286-sass-brunch-1-9-1.lock
+702 silly addNameRange number 2 { name: 'moment', range: '>=2.8.3-0 <3.0.0-0', hasData: true }
+703 silly addNameRange versions [ 'moment',
+703 silly addNameRange   [ '1.0.0',
+703 silly addNameRange     '1.0.1',
+703 silly addNameRange     '1.1.0',
+703 silly addNameRange     '1.1.1',
+703 silly addNameRange     '1.2.0',
+703 silly addNameRange     '1.3.0',
+703 silly addNameRange     '1.4.0',
+703 silly addNameRange     '1.5.0',
+703 silly addNameRange     '1.5.1',
+703 silly addNameRange     '1.6.0',
+703 silly addNameRange     '1.6.1',
+703 silly addNameRange     '1.6.2',
+703 silly addNameRange     '1.7.0',
+703 silly addNameRange     '1.7.1',
+703 silly addNameRange     '1.7.2',
+703 silly addNameRange     '2.0.0',
+703 silly addNameRange     '2.1.0',
+703 silly addNameRange     '2.2.1',
+703 silly addNameRange     '2.3.0',
+703 silly addNameRange     '2.3.1',
+703 silly addNameRange     '2.4.0',
+703 silly addNameRange     '2.5.0',
+703 silly addNameRange     '2.5.1',
+703 silly addNameRange     '2.6.0',
+703 silly addNameRange     '2.7.0',
+703 silly addNameRange     '2.8.1',
+703 silly addNameRange     '2.8.2',
+703 silly addNameRange     '2.8.3',
+703 silly addNameRange     '2.8.4',
+703 silly addNameRange     '2.9.0',
+703 silly addNameRange     '2.10.2',
+703 silly addNameRange     '2.10.3',
+703 silly addNameRange     '2.10.5',
+703 silly addNameRange     '2.10.6' ] ]
+704 verbose addNamed [ 'moment', '2.10.6' ]
+705 verbose addNamed [ '2.10.6', '2.10.6' ]
+706 silly lockFile 81e32ec7-moment-2-10-6 moment@2.10.6
+707 verbose lock moment@2.10.6 /home/lucie/.npm/81e32ec7-moment-2-10-6.lock
+708 http 200 https://registry.npmjs.org/stylus-brunch
+709 silly registry.get cb [ 200,
+709 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+709 silly registry.get     etag: '"BMPMNCYDA1G7PSPC47BCBCW90"',
+709 silly registry.get     'content-type': 'application/json',
+709 silly registry.get     'cache-control': 'max-age=60',
+709 silly registry.get     'content-length': '20935',
+709 silly registry.get     'accept-ranges': 'bytes',
+709 silly registry.get     date: 'Wed, 28 Oct 2015 13:07:24 GMT',
+709 silly registry.get     via: '1.1 varnish',
+709 silly registry.get     age: '0',
+709 silly registry.get     connection: 'keep-alive',
+709 silly registry.get     'x-served-by': 'cache-lcy1128-LCY',
+709 silly registry.get     'x-cache': 'MISS',
+709 silly registry.get     'x-cache-hits': '0',
+709 silly registry.get     'x-timer': 'S1446037644.554502,VS0,VE96',
+709 silly registry.get     vary: 'Accept' } ]
+710 http 200 https://registry.npmjs.org/coffee-script-brunch/-/coffee-script-brunch-1.8.3.tgz
+711 silly lockFile 072ae30c-ass-brunch-sass-brunch-1-9-1-tgz https://registry.npmjs.org/sass-brunch/-/sass-brunch-1.9.1.tgz
+712 verbose lock https://registry.npmjs.org/sass-brunch/-/sass-brunch-1.9.1.tgz /home/lucie/.npm/072ae30c-ass-brunch-sass-brunch-1-9-1-tgz.lock
+713 silly lockFile fa7731cd-mjs-org-moment-moment-2-10-6-tgz https://registry.npmjs.org/moment/-/moment-2.10.6.tgz
+714 verbose lock https://registry.npmjs.org/moment/-/moment-2.10.6.tgz /home/lucie/.npm/fa7731cd-mjs-org-moment-moment-2-10-6-tgz.lock
+715 verbose addRemoteTarball [ 'https://registry.npmjs.org/sass-brunch/-/sass-brunch-1.9.1.tgz',
+715 verbose addRemoteTarball   'a4578cbbdfbf52016379c72e28248d39b24afa07' ]
+716 verbose addRemoteTarball [ 'https://registry.npmjs.org/moment/-/moment-2.10.6.tgz',
+716 verbose addRemoteTarball   '6cb21967c79cba7b0ca5e66644f173662b3efa77' ]
+717 info retry fetch attempt 1 at 16:07:24
+718 verbose fetch to= /tmp/npm-14363-1Hwxjjla/registry.npmjs.org/sass-brunch/-/sass-brunch-1.9.1.tgz
+719 info retry fetch attempt 1 at 16:07:24
+720 verbose fetch to= /tmp/npm-14363-1Hwxjjla/registry.npmjs.org/moment/-/moment-2.10.6.tgz
+721 silly addNameRange number 2 { name: 'stylus-brunch',
+721 silly addNameRange   range: '>=1.0.0-0 <1.9.0-0',
+721 silly addNameRange   hasData: true }
+722 silly addNameRange versions [ 'stylus-brunch',
+722 silly addNameRange   [ '1.0.0',
+722 silly addNameRange     '1.0.1',
+722 silly addNameRange     '1.1.0',
+722 silly addNameRange     '1.1.1',
+722 silly addNameRange     '1.1.2',
+722 silly addNameRange     '1.3.0',
+722 silly addNameRange     '1.3.1',
+722 silly addNameRange     '1.4.0',
+722 silly addNameRange     '1.4.1',
+722 silly addNameRange     '1.4.2',
+722 silly addNameRange     '1.4.3',
+722 silly addNameRange     '1.5.0',
+722 silly addNameRange     '1.5.1',
+722 silly addNameRange     '1.6.0',
+722 silly addNameRange     '1.6.1',
+722 silly addNameRange     '1.7.0',
+722 silly addNameRange     '1.8.0',
+722 silly addNameRange     '1.8.1' ] ]
+723 verbose addNamed [ 'stylus-brunch', '1.8.1' ]
+724 verbose addNamed [ '1.8.1', '1.8.1' ]
+725 silly lockFile 04450062-stylus-brunch-1-8-1 stylus-brunch@1.8.1
+726 verbose lock stylus-brunch@1.8.1 /home/lucie/.npm/04450062-stylus-brunch-1-8-1.lock
+727 silly lockFile 05522c19-imeout-connect-timeout-1-7-0-tgz https://registry.npmjs.org/connect-timeout/-/connect-timeout-1.7.0.tgz
+728 silly lockFile 05522c19-imeout-connect-timeout-1-7-0-tgz https://registry.npmjs.org/connect-timeout/-/connect-timeout-1.7.0.tgz
+729 http GET https://registry.npmjs.org/sass-brunch/-/sass-brunch-1.9.1.tgz
+730 http GET https://registry.npmjs.org/moment/-/moment-2.10.6.tgz
+731 silly lockFile 87e68219-connect-timeout-1-7-0 connect-timeout@1.7.0
+732 silly lockFile 87e68219-connect-timeout-1-7-0 connect-timeout@1.7.0
+733 silly lockFile 05a6513a-connect-timeout-1-2-2 connect-timeout@^1.2.2
+734 silly lockFile 05a6513a-connect-timeout-1-2-2 connect-timeout@^1.2.2
+735 silly lockFile 14645a0c-s-brunch-stylus-brunch-1-8-1-tgz https://registry.npmjs.org/stylus-brunch/-/stylus-brunch-1.8.1.tgz
+736 verbose lock https://registry.npmjs.org/stylus-brunch/-/stylus-brunch-1.8.1.tgz /home/lucie/.npm/14645a0c-s-brunch-stylus-brunch-1-8-1-tgz.lock
+737 verbose addRemoteTarball [ 'https://registry.npmjs.org/stylus-brunch/-/stylus-brunch-1.8.1.tgz',
+737 verbose addRemoteTarball   '85eef063f3539544683bfc966bfce4f3300e7afb' ]
+738 info retry fetch attempt 1 at 16:07:24
+739 verbose fetch to= /tmp/npm-14363-1Hwxjjla/registry.npmjs.org/stylus-brunch/-/stylus-brunch-1.8.1.tgz
+740 http GET https://registry.npmjs.org/stylus-brunch/-/stylus-brunch-1.8.1.tgz
+741 silly lockFile 30ef8eec-h-coffee-script-brunch-1-8-3-tgz https://registry.npmjs.org/coffee-script-brunch/-/coffee-script-brunch-1.8.3.tgz
+742 silly lockFile 30ef8eec-h-coffee-script-brunch-1-8-3-tgz https://registry.npmjs.org/coffee-script-brunch/-/coffee-script-brunch-1.8.3.tgz
+743 silly lockFile 6a870782-coffee-script-brunch-1-8-3 coffee-script-brunch@1.8.3
+744 silly lockFile 6a870782-coffee-script-brunch-1-8-3 coffee-script-brunch@1.8.3
+745 silly lockFile 2dce1649-coffee-script-brunch-1-0-1-9 coffee-script-brunch@>= 1.0 < 1.9
+746 silly lockFile 2dce1649-coffee-script-brunch-1-0-1-9 coffee-script-brunch@>= 1.0 < 1.9
+747 http 200 https://registry.npmjs.org/javascript-brunch/-/javascript-brunch-1.8.0.tgz
+748 http 200 https://registry.npmjs.org/body-parser/-/body-parser-1.14.1.tgz
+749 silly lockFile e0f66322-dy-parser-body-parser-1-14-1-tgz https://registry.npmjs.org/body-parser/-/body-parser-1.14.1.tgz
+750 silly lockFile e0f66322-dy-parser-body-parser-1-14-1-tgz https://registry.npmjs.org/body-parser/-/body-parser-1.14.1.tgz
+751 silly lockFile ff384f7a-unch-javascript-brunch-1-8-0-tgz https://registry.npmjs.org/javascript-brunch/-/javascript-brunch-1.8.0.tgz
+752 silly lockFile ff384f7a-unch-javascript-brunch-1-8-0-tgz https://registry.npmjs.org/javascript-brunch/-/javascript-brunch-1.8.0.tgz
+753 silly lockFile 37e3018c-body-parser-1-14-1 body-parser@1.14.1
+754 silly lockFile 37e3018c-body-parser-1-14-1 body-parser@1.14.1
+755 silly lockFile a03396de-javascript-brunch-1-8-0 javascript-brunch@1.8.0
+756 silly lockFile a03396de-javascript-brunch-1-8-0 javascript-brunch@1.8.0
+757 silly lockFile bf0ebea1-body-parser-1-5-2 body-parser@^1.5.2
+758 silly lockFile bf0ebea1-body-parser-1-5-2 body-parser@^1.5.2
+759 silly lockFile 8cb60591-javascript-brunch-1-0-1-9 javascript-brunch@>= 1.0 < 1.9
+760 silly lockFile 8cb60591-javascript-brunch-1-0-1-9 javascript-brunch@>= 1.0 < 1.9
+761 http 200 https://registry.npmjs.org/toobusy-js
+762 silly registry.get cb [ 200,
+762 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+762 silly registry.get     etag: '"5GXPM9HWTFD6V1XEI3D13RTLS"',
+762 silly registry.get     'content-type': 'application/json',
+762 silly registry.get     'cache-control': 'max-age=60',
+762 silly registry.get     'content-length': '9421',
+762 silly registry.get     'accept-ranges': 'bytes',
+762 silly registry.get     date: 'Wed, 28 Oct 2015 13:07:24 GMT',
+762 silly registry.get     via: '1.1 varnish',
+762 silly registry.get     age: '0',
+762 silly registry.get     connection: 'keep-alive',
+762 silly registry.get     'x-served-by': 'cache-lhr6323-LHR',
+762 silly registry.get     'x-cache': 'MISS',
+762 silly registry.get     'x-cache-hits': '0',
+762 silly registry.get     'x-timer': 'S1446037644.682031,VS0,VE90',
+762 silly registry.get     vary: 'Accept' } ]
+763 silly addNameRange number 2 { name: 'toobusy-js',
+763 silly addNameRange   range: '>=0.3.1-0 <0.4.0-0',
+763 silly addNameRange   hasData: true }
+764 silly addNameRange versions [ 'toobusy-js',
+764 silly addNameRange   [ '0.3.0', '0.3.1', '0.4.0', '0.4.1', '0.4.2' ] ]
+765 verbose addNamed [ 'toobusy-js', '0.3.1' ]
+766 verbose addNamed [ '0.3.1', '0.3.1' ]
+767 silly lockFile f2950266-toobusy-js-0-3-1 toobusy-js@0.3.1
+768 verbose lock toobusy-js@0.3.1 /home/lucie/.npm/f2950266-toobusy-js-0-3-1.lock
+769 silly lockFile 7a05fa29--toobusy-js-toobusy-js-0-3-1-tgz https://registry.npmjs.org/toobusy-js/-/toobusy-js-0.3.1.tgz
+770 verbose lock https://registry.npmjs.org/toobusy-js/-/toobusy-js-0.3.1.tgz /home/lucie/.npm/7a05fa29--toobusy-js-toobusy-js-0-3-1-tgz.lock
+771 verbose addRemoteTarball [ 'https://registry.npmjs.org/toobusy-js/-/toobusy-js-0.3.1.tgz',
+771 verbose addRemoteTarball   '23524d70705292f6e5aade273d56ec18f5a63e80' ]
+772 info retry fetch attempt 1 at 16:07:24
+773 verbose fetch to= /tmp/npm-14363-1Hwxjjla/registry.npmjs.org/toobusy-js/-/toobusy-js-0.3.1.tgz
+774 http GET https://registry.npmjs.org/toobusy-js/-/toobusy-js-0.3.1.tgz
+775 http 200 https://registry.npmjs.org/compression/-/compression-1.6.0.tgz
+776 silly lockFile 70622089-ompression-compression-1-6-0-tgz https://registry.npmjs.org/compression/-/compression-1.6.0.tgz
+777 silly lockFile 70622089-ompression-compression-1-6-0-tgz https://registry.npmjs.org/compression/-/compression-1.6.0.tgz
+778 silly lockFile c8d3f894-compression-1-6-0 compression@1.6.0
+779 silly lockFile c8d3f894-compression-1-6-0 compression@1.6.0
+780 silly lockFile dbeadc4b-compression-1-0-11 compression@^1.0.11
+781 silly lockFile dbeadc4b-compression-1-0-11 compression@^1.0.11
+782 http 200 https://registry.npmjs.org/json-brunch/-/json-brunch-1.5.4.tgz
+783 silly lockFile 6fc1e98d-son-brunch-json-brunch-1-5-4-tgz https://registry.npmjs.org/json-brunch/-/json-brunch-1.5.4.tgz
+784 silly lockFile 6fc1e98d-son-brunch-json-brunch-1-5-4-tgz https://registry.npmjs.org/json-brunch/-/json-brunch-1.5.4.tgz
+785 silly lockFile cc38eb77-json-brunch-1-5-4 json-brunch@1.5.4
+786 silly lockFile cc38eb77-json-brunch-1-5-4 json-brunch@1.5.4
+787 silly lockFile 3869d53a-json-brunch-1-0-1-9 json-brunch@>= 1.0 < 1.9
+788 silly lockFile 3869d53a-json-brunch-1-0-1-9 json-brunch@>= 1.0 < 1.9
+789 http 200 https://registry.npmjs.org/process-env-brunch/-/process-env-brunch-1.4.4d.tgz
+790 silly lockFile 263443ea-ch-process-env-brunch-1-4-4d-tgz https://registry.npmjs.org/process-env-brunch/-/process-env-brunch-1.4.4d.tgz
+791 silly lockFile 263443ea-ch-process-env-brunch-1-4-4d-tgz https://registry.npmjs.org/process-env-brunch/-/process-env-brunch-1.4.4d.tgz
+792 silly lockFile 495ef5fd-process-env-brunch-1-4-4-d process-env-brunch@1.4.4-d
+793 silly lockFile 495ef5fd-process-env-brunch-1-4-4-d process-env-brunch@1.4.4-d
+794 silly lockFile 72a38e1c-process-env-brunch-1-4-4-d process-env-brunch@~1.4.4-d
+795 silly lockFile 72a38e1c-process-env-brunch-1-4-4-d process-env-brunch@~1.4.4-d
+796 http 200 https://registry.npmjs.org/morgan/-/morgan-1.6.1.tgz
+797 http 200 https://registry.npmjs.org/handlebars-brunch/-/handlebars-brunch-1.8.0.tgz
+798 silly lockFile 0ef8c228-pmjs-org-morgan-morgan-1-6-1-tgz https://registry.npmjs.org/morgan/-/morgan-1.6.1.tgz
+799 silly lockFile 0ef8c228-pmjs-org-morgan-morgan-1-6-1-tgz https://registry.npmjs.org/morgan/-/morgan-1.6.1.tgz
+800 silly lockFile dc281f92-unch-handlebars-brunch-1-8-0-tgz https://registry.npmjs.org/handlebars-brunch/-/handlebars-brunch-1.8.0.tgz
+801 silly lockFile dc281f92-unch-handlebars-brunch-1-8-0-tgz https://registry.npmjs.org/handlebars-brunch/-/handlebars-brunch-1.8.0.tgz
+802 silly lockFile 4ffca82c-morgan-1-6-1 morgan@1.6.1
+803 silly lockFile 4ffca82c-morgan-1-6-1 morgan@1.6.1
+804 silly lockFile 8d971229-handlebars-brunch-1-8-0 handlebars-brunch@1.8.0
+805 silly lockFile 8d971229-handlebars-brunch-1-8-0 handlebars-brunch@1.8.0
+806 silly lockFile 9aaf96cf-morgan-1-2-3 morgan@^1.2.3
+807 silly lockFile 9aaf96cf-morgan-1-2-3 morgan@^1.2.3
+808 http 200 https://registry.npmjs.org/uglify-js-brunch
+809 silly registry.get cb [ 200,
+809 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+809 silly registry.get     etag: '"E5N0FJHINOWGJGVIHR33ODJD4"',
+809 silly registry.get     'content-type': 'application/json',
+809 silly registry.get     'cache-control': 'max-age=60',
+809 silly registry.get     'content-length': '19096',
+809 silly registry.get     'accept-ranges': 'bytes',
+809 silly registry.get     date: 'Wed, 28 Oct 2015 13:07:25 GMT',
+809 silly registry.get     via: '1.1 varnish',
+809 silly registry.get     age: '0',
+809 silly registry.get     connection: 'keep-alive',
+809 silly registry.get     'x-served-by': 'cache-lcy1130-LCY',
+809 silly registry.get     'x-cache': 'MISS',
+809 silly registry.get     'x-cache-hits': '0',
+809 silly registry.get     'x-timer': 'S1446037644.840028,VS0,VE176',
+809 silly registry.get     vary: 'Accept' } ]
+810 silly lockFile b916123d-handlebars-brunch-1-0-1-9 handlebars-brunch@>= 1.0 < 1.9
+811 silly lockFile b916123d-handlebars-brunch-1-0-1-9 handlebars-brunch@>= 1.0 < 1.9
+812 silly addNameRange number 2 { name: 'uglify-js-brunch',
+812 silly addNameRange   range: '>=1.0.0-0 <1.9.0-0',
+812 silly addNameRange   hasData: true }
+813 silly addNameRange versions [ 'uglify-js-brunch',
+813 silly addNameRange   [ '1.0.0',
+813 silly addNameRange     '1.1.0',
+813 silly addNameRange     '1.1.1',
+813 silly addNameRange     '1.3.0',
+813 silly addNameRange     '1.3.1',
+813 silly addNameRange     '1.5.0',
+813 silly addNameRange     '1.5.1',
+813 silly addNameRange     '1.7.0',
+813 silly addNameRange     '1.7.1',
+813 silly addNameRange     '1.7.2',
+813 silly addNameRange     '1.7.3',
+813 silly addNameRange     '1.7.4',
+813 silly addNameRange     '1.7.5',
+813 silly addNameRange     '1.7.6',
+813 silly addNameRange     '1.7.7',
+813 silly addNameRange     '1.7.8' ] ]
+814 verbose addNamed [ 'uglify-js-brunch', '1.7.8' ]
+815 verbose addNamed [ '1.7.8', '1.7.8' ]
+816 silly lockFile cd6b0dc2-uglify-js-brunch-1-7-8 uglify-js-brunch@1.7.8
+817 verbose lock uglify-js-brunch@1.7.8 /home/lucie/.npm/cd6b0dc2-uglify-js-brunch-1-7-8.lock
+818 silly lockFile 43154154-runch-uglify-js-brunch-1-7-8-tgz https://registry.npmjs.org/uglify-js-brunch/-/uglify-js-brunch-1.7.8.tgz
+819 verbose lock https://registry.npmjs.org/uglify-js-brunch/-/uglify-js-brunch-1.7.8.tgz /home/lucie/.npm/43154154-runch-uglify-js-brunch-1-7-8-tgz.lock
+820 verbose addRemoteTarball [ 'https://registry.npmjs.org/uglify-js-brunch/-/uglify-js-brunch-1.7.8.tgz',
+820 verbose addRemoteTarball   'b36dffbcd19cfea27248d34797effef1ae9d3a62' ]
+821 info retry fetch attempt 1 at 16:07:25
+822 verbose fetch to= /tmp/npm-14363-1Hwxjjla/registry.npmjs.org/uglify-js-brunch/-/uglify-js-brunch-1.7.8.tgz
+823 http GET https://registry.npmjs.org/uglify-js-brunch/-/uglify-js-brunch-1.7.8.tgz
+824 http 200 https://registry.npmjs.org/winston-papertrail
+825 silly registry.get cb [ 200,
+825 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+825 silly registry.get     etag: '"3Z22HO9JLAOVU1HV8RLYYFODD"',
+825 silly registry.get     'content-type': 'application/json',
+825 silly registry.get     'cache-control': 'max-age=60',
+825 silly registry.get     'content-length': '25219',
+825 silly registry.get     'accept-ranges': 'bytes',
+825 silly registry.get     date: 'Wed, 28 Oct 2015 13:07:25 GMT',
+825 silly registry.get     via: '1.1 varnish',
+825 silly registry.get     age: '0',
+825 silly registry.get     connection: 'keep-alive',
+825 silly registry.get     'x-served-by': 'cache-lcy1128-LCY',
+825 silly registry.get     'x-cache': 'HIT',
+825 silly registry.get     'x-cache-hits': '1',
+825 silly registry.get     'x-timer': 'S1446037644.913827,VS0,VE175',
+825 silly registry.get     vary: 'Accept' } ]
+826 silly addNameRange number 2 { name: 'winston-papertrail',
+826 silly addNameRange   range: '>=0.1.5-0 <0.2.0-0',
+826 silly addNameRange   hasData: true }
+827 silly addNameRange versions [ 'winston-papertrail',
+827 silly addNameRange   [ '0.0.1',
+827 silly addNameRange     '0.0.2',
+827 silly addNameRange     '0.0.3',
+827 silly addNameRange     '0.0.4',
+827 silly addNameRange     '0.0.5',
+827 silly addNameRange     '0.0.6',
+827 silly addNameRange     '0.1.0',
+827 silly addNameRange     '0.1.1',
+827 silly addNameRange     '0.1.2',
+827 silly addNameRange     '0.1.3',
+827 silly addNameRange     '0.1.4',
+827 silly addNameRange     '0.1.5',
+827 silly addNameRange     '0.2.0',
+827 silly addNameRange     '0.2.1',
+827 silly addNameRange     '0.2.2',
+827 silly addNameRange     '0.2.3',
+827 silly addNameRange     '1.0.0',
+827 silly addNameRange     '1.0.1' ] ]
+828 verbose addNamed [ 'winston-papertrail', '0.1.5' ]
+829 verbose addNamed [ '0.1.5', '0.1.5' ]
+830 silly lockFile 407b22fd-winston-papertrail-0-1-5 winston-papertrail@0.1.5
+831 verbose lock winston-papertrail@0.1.5 /home/lucie/.npm/407b22fd-winston-papertrail-0-1-5.lock
+832 silly lockFile cbd2fde2-ail-winston-papertrail-0-1-5-tgz https://registry.npmjs.org/winston-papertrail/-/winston-papertrail-0.1.5.tgz
+833 verbose lock https://registry.npmjs.org/winston-papertrail/-/winston-papertrail-0.1.5.tgz /home/lucie/.npm/cbd2fde2-ail-winston-papertrail-0-1-5-tgz.lock
+834 verbose addRemoteTarball [ 'https://registry.npmjs.org/winston-papertrail/-/winston-papertrail-0.1.5.tgz',
+834 verbose addRemoteTarball   '642d4a44ba3ae7ff0138eb74f961c034baf7a72f' ]
+835 info retry fetch attempt 1 at 16:07:25
+836 verbose fetch to= /tmp/npm-14363-1Hwxjjla/registry.npmjs.org/winston-papertrail/-/winston-papertrail-0.1.5.tgz
+837 http GET https://registry.npmjs.org/winston-papertrail/-/winston-papertrail-0.1.5.tgz
+838 http 200 https://registry.npmjs.org/stylus-brunch/-/stylus-brunch-1.8.1.tgz
+839 silly lockFile 14645a0c-s-brunch-stylus-brunch-1-8-1-tgz https://registry.npmjs.org/stylus-brunch/-/stylus-brunch-1.8.1.tgz
+840 silly lockFile 14645a0c-s-brunch-stylus-brunch-1-8-1-tgz https://registry.npmjs.org/stylus-brunch/-/stylus-brunch-1.8.1.tgz
+841 silly lockFile 04450062-stylus-brunch-1-8-1 stylus-brunch@1.8.1
+842 silly lockFile 04450062-stylus-brunch-1-8-1 stylus-brunch@1.8.1
+843 silly lockFile 0473a594-stylus-brunch-1-0-1-9 stylus-brunch@>= 1.0 < 1.9
+844 silly lockFile 0473a594-stylus-brunch-1-0-1-9 stylus-brunch@>= 1.0 < 1.9
+845 http 200 https://registry.npmjs.org/sass-brunch/-/sass-brunch-1.9.1.tgz
+846 silly lockFile 072ae30c-ass-brunch-sass-brunch-1-9-1-tgz https://registry.npmjs.org/sass-brunch/-/sass-brunch-1.9.1.tgz
+847 silly lockFile 072ae30c-ass-brunch-sass-brunch-1-9-1-tgz https://registry.npmjs.org/sass-brunch/-/sass-brunch-1.9.1.tgz
+848 silly lockFile 6b07d286-sass-brunch-1-9-1 sass-brunch@1.9.1
+849 silly lockFile 6b07d286-sass-brunch-1-9-1 sass-brunch@1.9.1
+850 silly lockFile 7befed67-sass-brunch-1-8-11 sass-brunch@^1.8.11
+851 silly lockFile 7befed67-sass-brunch-1-8-11 sass-brunch@^1.8.11
+852 http 200 https://registry.npmjs.org/less-brunch
+853 silly registry.get cb [ 200,
+853 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+853 silly registry.get     etag: '"2VWRA8IY9Y621E197ZL6WO768"',
+853 silly registry.get     'content-type': 'application/json',
+853 silly registry.get     'cache-control': 'max-age=60',
+853 silly registry.get     'content-length': '16642',
+853 silly registry.get     'accept-ranges': 'bytes',
+853 silly registry.get     date: 'Wed, 28 Oct 2015 13:07:25 GMT',
+853 silly registry.get     via: '1.1 varnish',
+853 silly registry.get     age: '0',
+853 silly registry.get     connection: 'keep-alive',
+853 silly registry.get     'x-served-by': 'cache-lcy1127-LCY',
+853 silly registry.get     'x-cache': 'MISS',
+853 silly registry.get     'x-cache-hits': '0',
+853 silly registry.get     'x-timer': 'S1446037644.288046,VS0,VE893',
+853 silly registry.get     vary: 'Accept' } ]
+854 silly addNameRange number 2 { name: 'less-brunch',
+854 silly addNameRange   range: '>=1.8.1-0 <2.0.0-0',
+854 silly addNameRange   hasData: true }
+855 silly addNameRange versions [ 'less-brunch',
+855 silly addNameRange   [ '1.0.0',
+855 silly addNameRange     '1.1.0',
+855 silly addNameRange     '1.1.1',
+855 silly addNameRange     '1.3.0',
+855 silly addNameRange     '1.3.1',
+855 silly addNameRange     '1.4.0',
+855 silly addNameRange     '1.4.1',
+855 silly addNameRange     '1.5.0',
+855 silly addNameRange     '1.5.1',
+855 silly addNameRange     '1.5.2',
+855 silly addNameRange     '1.7.0',
+855 silly addNameRange     '1.7.1',
+855 silly addNameRange     '1.7.2',
+855 silly addNameRange     '1.8.0',
+855 silly addNameRange     '1.8.1' ] ]
+856 verbose addNamed [ 'less-brunch', '1.8.1' ]
+857 verbose addNamed [ '1.8.1', '1.8.1' ]
+858 silly lockFile 5bb6b831-less-brunch-1-8-1 less-brunch@1.8.1
+859 verbose lock less-brunch@1.8.1 /home/lucie/.npm/5bb6b831-less-brunch-1-8-1.lock
+860 silly lockFile 468643d7-ess-brunch-less-brunch-1-8-1-tgz https://registry.npmjs.org/less-brunch/-/less-brunch-1.8.1.tgz
+861 verbose lock https://registry.npmjs.org/less-brunch/-/less-brunch-1.8.1.tgz /home/lucie/.npm/468643d7-ess-brunch-less-brunch-1-8-1-tgz.lock
+862 verbose addRemoteTarball [ 'https://registry.npmjs.org/less-brunch/-/less-brunch-1.8.1.tgz',
+862 verbose addRemoteTarball   '5e9a4ad00644ef6687d69e7f0578c5c3e56f7adc' ]
+863 info retry fetch attempt 1 at 16:07:25
+864 verbose fetch to= /tmp/npm-14363-1Hwxjjla/registry.npmjs.org/less-brunch/-/less-brunch-1.8.1.tgz
+865 http GET https://registry.npmjs.org/less-brunch/-/less-brunch-1.8.1.tgz
+866 http 304 https://registry.npmjs.org/bower
+867 silly registry.get cb [ 304,
+867 silly registry.get   { date: 'Wed, 28 Oct 2015 13:07:25 GMT',
+867 silly registry.get     via: '1.1 varnish',
+867 silly registry.get     'cache-control': 'max-age=60',
+867 silly registry.get     etag: '"BWV73V8ZTPVRGMNI1EYSE0Y42"',
+867 silly registry.get     age: '20',
+867 silly registry.get     connection: 'keep-alive',
+867 silly registry.get     'x-served-by': 'cache-lcy1130-LCY',
+867 silly registry.get     'x-cache': 'HIT',
+867 silly registry.get     'x-cache-hits': '1',
+867 silly registry.get     'x-timer': 'S1446037645.204487,VS0,VE0',
+867 silly registry.get     vary: 'Accept' } ]
+868 verbose etag https://registry.npmjs.org/bower from cache
+869 http 200 https://registry.npmjs.org/toobusy-js/-/toobusy-js-0.3.1.tgz
+870 http 200 https://registry.npmjs.org/winston
+871 silly registry.get cb [ 200,
+871 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+871 silly registry.get     etag: '"5J5LLVUQA0WW214LQX5P8V51I"',
+871 silly registry.get     'content-type': 'application/json',
+871 silly registry.get     'cache-control': 'max-age=60',
+871 silly registry.get     'content-length': '71554',
+871 silly registry.get     'accept-ranges': 'bytes',
+871 silly registry.get     date: 'Wed, 28 Oct 2015 13:07:24 GMT',
+871 silly registry.get     via: '1.1 varnish',
+871 silly registry.get     age: '54',
+871 silly registry.get     connection: 'keep-alive',
+871 silly registry.get     'x-served-by': 'cache-ams4136-AMS',
+871 silly registry.get     'x-cache': 'HIT',
+871 silly registry.get     'x-cache-hits': '2',
+871 silly registry.get     'x-timer': 'S1446037644.842177,VS0,VE0',
+871 silly registry.get     vary: 'Accept' } ]
+872 silly addNameRange number 2 { name: 'bower', range: '>=1.3.12-0 <2.0.0-0', hasData: true }
+873 silly addNameRange versions [ 'bower',
+873 silly addNameRange   [ '0.1.0',
+873 silly addNameRange     '0.1.2',
+873 silly addNameRange     '0.1.3',
+873 silly addNameRange     '0.2.0',
+873 silly addNameRange     '0.3.0',
+873 silly addNameRange     '0.3.1',
+873 silly addNameRange     '0.3.2',
+873 silly addNameRange     '0.4.0',
+873 silly addNameRange     '0.5.0',
+873 silly addNameRange     '0.5.1',
+873 silly addNameRange     '0.6.0',
+873 silly addNameRange     '0.6.1',
+873 silly addNameRange     '0.6.2',
+873 silly addNameRange     '0.6.3',
+873 silly addNameRange     '0.6.4',
+873 silly addNameRange     '0.6.5',
+873 silly addNameRange     '0.6.6',
+873 silly addNameRange     '0.6.7',
+873 silly addNameRange     '0.6.8',
+873 silly addNameRange     '0.7.0',
+873 silly addNameRange     '0.7.1',
+873 silly addNameRange     '0.8.0',
+873 silly addNameRange     '0.8.1',
+873 silly addNameRange     '0.8.2',
+873 silly addNameRange     '0.8.3',
+873 silly addNameRange     '0.8.4',
+873 silly addNameRange     '0.8.5',
+873 silly addNameRange     '0.8.6',
+873 silly addNameRange     '0.9.0',
+873 silly addNameRange     '0.9.1',
+873 silly addNameRange     '0.9.2',
+873 silly addNameRange     '0.10.0',
+873 silly addNameRange     '1.0.0',
+873 silly addNameRange     '1.0.1',
+873 silly addNameRange     '1.0.2',
+873 silly addNameRange     '1.0.3',
+873 silly addNameRange     '1.1.0',
+873 silly addNameRange     '1.1.1',
+873 silly addNameRange     '1.1.2',
+873 silly addNameRange     '1.2.0',
+873 silly addNameRange     '1.2.1',
+873 silly addNameRange     '1.2.2',
+873 silly addNameRange     '1.2.3',
+873 silly addNameRange     '1.2.4',
+873 silly addNameRange     '1.2.5',
+873 silly addNameRange     '1.2.6',
+873 silly addNameRange     '1.2.7',
+873 silly addNameRange     '1.2.8',
+873 silly addNameRange     '1.3.0',
+873 silly addNameRange     '1.3.1',
+873 silly addNameRange     '1.3.2',
+873 silly addNameRange     '1.3.3',
+873 silly addNameRange     '1.3.4',
+873 silly addNameRange     '1.3.5',
+873 silly addNameRange     '1.3.6',
+873 silly addNameRange     '1.3.7',
+873 silly addNameRange     '1.3.8',
+873 silly addNameRange     '1.3.9',
+873 silly addNameRange     '1.3.10',
+873 silly addNameRange     '1.3.11',
+873 silly addNameRange     '1.3.12',
+873 silly addNameRange     '1.4.0',
+873 silly addNameRange     '1.4.1',
+873 silly addNameRange     '1.5.0',
+873 silly addNameRange     '1.5.1',
+873 silly addNameRange     '1.5.2',
+873 silly addNameRange     '1.5.3',
+873 silly addNameRange     '1.6.2',
+873 silly addNameRange     '1.6.3',
+873 silly addNameRange     '1.6.4',
+873 silly addNameRange     '1.6.5' ] ]
+874 verbose addNamed [ 'bower', '1.6.5' ]
+875 verbose addNamed [ '1.6.5', '1.6.5' ]
+876 silly lockFile ffc9c2be-bower-1-6-5 bower@1.6.5
+877 verbose lock bower@1.6.5 /home/lucie/.npm/ffc9c2be-bower-1-6-5.lock
+878 silly addNameRange number 2 { name: 'winston', range: '>=0.7.3-0 <0.8.0-0', hasData: true }
+879 silly addNameRange versions [ 'winston',
+879 silly addNameRange   [ '0.2.11',
+879 silly addNameRange     '0.3.3',
+879 silly addNameRange     '0.3.4',
+879 silly addNameRange     '0.3.5',
+879 silly addNameRange     '0.4.0',
+879 silly addNameRange     '0.4.1',
+879 silly addNameRange     '0.5.0',
+879 silly addNameRange     '0.5.1',
+879 silly addNameRange     '0.5.2',
+879 silly addNameRange     '0.5.3',
+879 silly addNameRange     '0.5.4',
+879 silly addNameRange     '0.5.5',
+879 silly addNameRange     '0.5.6',
+879 silly addNameRange     '0.5.7',
+879 silly addNameRange     '0.5.8',
+879 silly addNameRange     '0.5.9',
+879 silly addNameRange     '0.5.10',
+879 silly addNameRange     '0.5.11',
+879 silly addNameRange     '0.6.1',
+879 silly addNameRange     '0.6.2',
+879 silly addNameRange     '0.7.0',
+879 silly addNameRange     '0.7.1',
+879 silly addNameRange     '0.7.2',
+879 silly addNameRange     '0.7.3',
+879 silly addNameRange     '0.8.0',
+879 silly addNameRange     '0.8.1',
+879 silly addNameRange     '0.8.2',
+879 silly addNameRange     '0.8.3',
+879 silly addNameRange     '0.9.0',
+879 silly addNameRange     '1.0.0',
+879 silly addNameRange     '1.0.1',
+879 silly addNameRange     '1.0.2',
+879 silly addNameRange     '1.1.0',
+879 silly addNameRange     '1.1.1' ] ]
+880 verbose addNamed [ 'winston', '0.7.3' ]
+881 verbose addNamed [ '0.7.3', '0.7.3' ]
+882 silly lockFile bed49444-winston-0-7-3 winston@0.7.3
+883 verbose lock winston@0.7.3 /home/lucie/.npm/bed49444-winston-0-7-3.lock
+884 silly lockFile e7e896fd-js-org-winston-winston-0-7-3-tgz https://registry.npmjs.org/winston/-/winston-0.7.3.tgz
+885 verbose lock https://registry.npmjs.org/winston/-/winston-0.7.3.tgz /home/lucie/.npm/e7e896fd-js-org-winston-winston-0-7-3-tgz.lock
+886 verbose addRemoteTarball [ 'https://registry.npmjs.org/winston/-/winston-0.7.3.tgz',
+886 verbose addRemoteTarball   '7ae313ba73fcdc2ecb4aa2f9cd446e8298677266' ]
+887 silly lockFile ffc9c2be-bower-1-6-5 bower@1.6.5
+888 silly lockFile ffc9c2be-bower-1-6-5 bower@1.6.5
+889 info retry fetch attempt 1 at 16:07:25
+890 verbose fetch to= /tmp/npm-14363-1Hwxjjla/registry.npmjs.org/winston/-/winston-0.7.3.tgz
+891 silly lockFile 99f654c7-bower-1-3-12 bower@^1.3.12
+892 silly lockFile 99f654c7-bower-1-3-12 bower@^1.3.12
+893 silly lockFile 7a05fa29--toobusy-js-toobusy-js-0-3-1-tgz https://registry.npmjs.org/toobusy-js/-/toobusy-js-0.3.1.tgz
+894 silly lockFile 7a05fa29--toobusy-js-toobusy-js-0-3-1-tgz https://registry.npmjs.org/toobusy-js/-/toobusy-js-0.3.1.tgz
+895 http GET https://registry.npmjs.org/winston/-/winston-0.7.3.tgz
+896 silly lockFile f2950266-toobusy-js-0-3-1 toobusy-js@0.3.1
+897 silly lockFile f2950266-toobusy-js-0-3-1 toobusy-js@0.3.1
+898 http 304 https://registry.npmjs.org/coffee-script
+899 silly registry.get cb [ 304,
+899 silly registry.get   { date: 'Wed, 28 Oct 2015 13:07:25 GMT',
+899 silly registry.get     via: '1.1 varnish',
+899 silly registry.get     'cache-control': 'max-age=60',
+899 silly registry.get     etag: '"8C81D3WHWETHMIICVDO5U8UPZ"',
+899 silly registry.get     age: '47',
+899 silly registry.get     connection: 'keep-alive',
+899 silly registry.get     'x-served-by': 'cache-lcy1128-LCY',
+899 silly registry.get     'x-cache': 'HIT',
+899 silly registry.get     'x-cache-hits': '2',
+899 silly registry.get     'x-timer': 'S1446037645.272708,VS0,VE0',
+899 silly registry.get     vary: 'Accept' } ]
+900 verbose etag https://registry.npmjs.org/coffee-script from cache
+901 http 200 https://registry.npmjs.org/moment/-/moment-2.10.6.tgz
+902 silly lockFile 40f0dcac-toobusy-js-0-3-1 toobusy-js@^0.3.1
+903 silly lockFile 40f0dcac-toobusy-js-0-3-1 toobusy-js@^0.3.1
+904 silly addNameRange number 2 { name: 'coffee-script',
+904 silly addNameRange   range: '>=1.9.3-0 <2.0.0-0',
+904 silly addNameRange   hasData: true }
+905 silly addNameRange versions [ 'coffee-script',
+905 silly addNameRange   [ '0.7.0',
+905 silly addNameRange     '0.7.1',
+905 silly addNameRange     '0.7.2',
+905 silly addNameRange     '0.9.0',
+905 silly addNameRange     '0.9.1',
+905 silly addNameRange     '0.9.2',
+905 silly addNameRange     '0.9.3',
+905 silly addNameRange     '0.9.4',
+905 silly addNameRange     '0.9.5',
+905 silly addNameRange     '0.9.6',
+905 silly addNameRange     '1.0.0',
+905 silly addNameRange     '1.0.1',
+905 silly addNameRange     '1.1.0',
+905 silly addNameRange     '1.1.1',
+905 silly addNameRange     '1.1.2',
+905 silly addNameRange     '1.1.3',
+905 silly addNameRange     '1.2.0',
+905 silly addNameRange     '1.3.0',
+905 silly addNameRange     '1.3.1',
+905 silly addNameRange     '1.3.2',
+905 silly addNameRange     '1.3.3',
+905 silly addNameRange     '1.4.0',
+905 silly addNameRange     '1.5.0',
+905 silly addNameRange     '1.6.0',
+905 silly addNameRange     '1.6.1',
+905 silly addNameRange     '1.6.2',
+905 silly addNameRange     '1.6.3',
+905 silly addNameRange     '1.7.0',
+905 silly addNameRange     '1.7.1',
+905 silly addNameRange     '1.8.0',
+905 silly addNameRange     '1.9.0',
+905 silly addNameRange     '1.9.1',
+905 silly addNameRange     '1.9.2',
+905 silly addNameRange     '1.9.3',
+905 silly addNameRange     '1.10.0' ] ]
+906 verbose addNamed [ 'coffee-script', '1.10.0' ]
+907 verbose addNamed [ '1.10.0', '1.10.0' ]
+908 silly lockFile 202ccfd7-coffee-script-1-10-0 coffee-script@1.10.0
+909 verbose lock coffee-script@1.10.0 /home/lucie/.npm/202ccfd7-coffee-script-1-10-0.lock
+910 silly lockFile 202ccfd7-coffee-script-1-10-0 coffee-script@1.10.0
+911 silly lockFile 202ccfd7-coffee-script-1-10-0 coffee-script@1.10.0
+912 silly lockFile 5d8f8add-coffee-script-1-9-3 coffee-script@^1.9.3
+913 silly lockFile 5d8f8add-coffee-script-1-9-3 coffee-script@^1.9.3
+914 http 200 https://registry.npmjs.org/mocha-phantomjs
+915 silly registry.get cb [ 200,
+915 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+915 silly registry.get     etag: '"8GV8HY342OZGR5QTS28YWWME0"',
+915 silly registry.get     'content-type': 'application/json',
+915 silly registry.get     'cache-control': 'max-age=60',
+915 silly registry.get     'content-length': '56619',
+915 silly registry.get     'accept-ranges': 'bytes',
+915 silly registry.get     date: 'Wed, 28 Oct 2015 13:07:25 GMT',
+915 silly registry.get     via: '1.1 varnish',
+915 silly registry.get     age: '0',
+915 silly registry.get     connection: 'keep-alive',
+915 silly registry.get     'x-served-by': 'cache-lhr6323-LHR',
+915 silly registry.get     'x-cache': 'HIT',
+915 silly registry.get     'x-cache-hits': '1',
+915 silly registry.get     'x-timer': 'S1446037644.982147,VS0,VE162',
+915 silly registry.get     vary: 'Accept' } ]
+916 silly addNameRange number 2 { name: 'mocha-phantomjs', range: '>=3.3.2', hasData: true }
+917 silly addNameRange versions [ 'mocha-phantomjs',
+917 silly addNameRange   [ '1.0.0',
+917 silly addNameRange     '1.0.1',
+917 silly addNameRange     '1.1.0',
+917 silly addNameRange     '1.1.1',
+917 silly addNameRange     '1.1.2',
+917 silly addNameRange     '1.1.3',
+917 silly addNameRange     '2.0.0',
+917 silly addNameRange     '2.0.1',
+917 silly addNameRange     '2.0.2',
+917 silly addNameRange     '2.0.3',
+917 silly addNameRange     '3.0.0',
+917 silly addNameRange     '3.1.0',
+917 silly addNameRange     '3.1.1',
+917 silly addNameRange     '3.1.2',
+917 silly addNameRange     '3.1.3',
+917 silly addNameRange     '3.1.4',
+917 silly addNameRange     '3.1.5',
+917 silly addNameRange     '3.1.6',
+917 silly addNameRange     '3.2.0',
+917 silly addNameRange     '3.3.0',
+917 silly addNameRange     '3.3.1',
+917 silly addNameRange     '3.3.2',
+917 silly addNameRange     '3.4.0',
+917 silly addNameRange     '3.4.1',
+917 silly addNameRange     '3.5.0',
+917 silly addNameRange     '3.5.1',
+917 silly addNameRange     '3.5.2',
+917 silly addNameRange     '3.5.3',
+917 silly addNameRange     '3.5.4',
+917 silly addNameRange     '3.5.6',
+917 silly addNameRange     '3.6.0',
+917 silly addNameRange     '4.0.0',
+917 silly addNameRange     '4.0.1' ] ]
+918 verbose addNamed [ 'mocha-phantomjs', '4.0.1' ]
+919 verbose addNamed [ '4.0.1', '4.0.1' ]
+920 silly lockFile 471af4c9-mocha-phantomjs-4-0-1 mocha-phantomjs@4.0.1
+921 verbose lock mocha-phantomjs@4.0.1 /home/lucie/.npm/471af4c9-mocha-phantomjs-4-0-1.lock
+922 silly lockFile d7f41d06-ntomjs-mocha-phantomjs-4-0-1-tgz https://registry.npmjs.org/mocha-phantomjs/-/mocha-phantomjs-4.0.1.tgz
+923 verbose lock https://registry.npmjs.org/mocha-phantomjs/-/mocha-phantomjs-4.0.1.tgz /home/lucie/.npm/d7f41d06-ntomjs-mocha-phantomjs-4-0-1-tgz.lock
+924 verbose addRemoteTarball [ 'https://registry.npmjs.org/mocha-phantomjs/-/mocha-phantomjs-4.0.1.tgz',
+924 verbose addRemoteTarball   '1511adda915a3012e5459add24902d9aa84e982c' ]
+925 info retry fetch attempt 1 at 16:07:25
+926 verbose fetch to= /tmp/npm-14363-1Hwxjjla/registry.npmjs.org/mocha-phantomjs/-/mocha-phantomjs-4.0.1.tgz
+927 http GET https://registry.npmjs.org/mocha-phantomjs/-/mocha-phantomjs-4.0.1.tgz
+928 http 304 https://registry.npmjs.org/express
+929 silly registry.get cb [ 304,
+929 silly registry.get   { date: 'Wed, 28 Oct 2015 13:07:25 GMT',
+929 silly registry.get     via: '1.1 varnish',
+929 silly registry.get     'cache-control': 'max-age=60',
+929 silly registry.get     etag: '"4MP59HRGSS396GSJXBIIL0O35"',
+929 silly registry.get     age: '27',
+929 silly registry.get     connection: 'keep-alive',
+929 silly registry.get     'x-served-by': 'cache-lcy1130-LCY',
+929 silly registry.get     'x-cache': 'HIT',
+929 silly registry.get     'x-cache-hits': '2',
+929 silly registry.get     'x-timer': 'S1446037645.404617,VS0,VE0',
+929 silly registry.get     vary: 'Accept' } ]
+930 verbose etag https://registry.npmjs.org/express from cache
+931 silly addNameRange number 2 { name: 'express', range: '>=4.9.8-0 <5.0.0-0', hasData: true }
+932 silly addNameRange versions [ 'express',
+932 silly addNameRange   [ '0.14.0',
+932 silly addNameRange     '0.14.1',
+932 silly addNameRange     '1.0.0',
+932 silly addNameRange     '1.0.1',
+932 silly addNameRange     '1.0.2',
+932 silly addNameRange     '1.0.3',
+932 silly addNameRange     '1.0.4',
+932 silly addNameRange     '1.0.5',
+932 silly addNameRange     '1.0.6',
+932 silly addNameRange     '1.0.7',
+932 silly addNameRange     '1.0.8',
+932 silly addNameRange     '2.0.0',
+932 silly addNameRange     '2.1.0',
+932 silly addNameRange     '2.1.1',
+932 silly addNameRange     '2.2.0',
+932 silly addNameRange     '2.2.1',
+932 silly addNameRange     '2.2.2',
+932 silly addNameRange     '2.3.0',
+932 silly addNameRange     '2.3.1',
+932 silly addNameRange     '2.3.2',
+932 silly addNameRange     '2.3.3',
+932 silly addNameRange     '2.3.4',
+932 silly addNameRange     '2.3.5',
+932 silly addNameRange     '2.3.6',
+932 silly addNameRange     '2.3.7',
+932 silly addNameRange     '2.3.8',
+932 silly addNameRange     '2.3.9',
+932 silly addNameRange     '2.3.10',
+932 silly addNameRange     '2.3.11',
+932 silly addNameRange     '2.3.12',
+932 silly addNameRange     '2.4.0',
+932 silly addNameRange     '2.4.1',
+932 silly addNameRange     '2.4.2',
+932 silly addNameRange     '2.4.3',
+932 silly addNameRange     '2.4.4',
+932 silly addNameRange     '2.4.5',
+932 silly addNameRange     '2.4.6',
+932 silly addNameRange     '2.4.7',
+932 silly addNameRange     '2.5.0',
+932 silly addNameRange     '2.5.1',
+932 silly addNameRange     '2.5.2',
+932 silly addNameRange     '2.5.3',
+932 silly addNameRange     '2.5.4',
+932 silly addNameRange     '2.5.5',
+932 silly addNameRange     '2.5.6',
+932 silly addNameRange     '2.5.7',
+932 silly addNameRange     '2.5.8',
+932 silly addNameRange     '2.5.9',
+932 silly addNameRange     '2.5.10',
+932 silly addNameRange     '2.5.11',
+932 silly addNameRange     '3.0.0',
+932 silly addNameRange     '3.0.1',
+932 silly addNameRange     '3.0.2',
+932 silly addNameRange     '3.0.3',
+932 silly addNameRange     '3.0.4',
+932 silly addNameRange     '3.0.5',
+932 silly addNameRange     '3.0.6',
+932 silly addNameRange     '3.1.0',
+932 silly addNameRange     '3.1.1',
+932 silly addNameRange     '3.1.2',
+932 silly addNameRange     '3.2.0',
+932 silly addNameRange     '3.2.1',
+932 silly addNameRange     '3.2.2',
+932 silly addNameRange     '3.2.3',
+932 silly addNameRange     '3.2.4',
+932 silly addNameRange     '3.2.5',
+932 silly addNameRange     '3.2.6',
+932 silly addNameRange     '3.3.0',
+932 silly addNameRange     '3.3.1',
+932 silly addNameRange     '3.3.2',
+932 silly addNameRange     '3.3.3',
+932 silly addNameRange     '3.3.4',
+932 silly addNameRange     '3.3.5',
+932 silly addNameRange     '3.3.6',
+932 silly addNameRange     '1.0.0-beta',
+932 silly addNameRange     '1.0.0-beta2',
+932 silly addNameRange     '1.0.0-rc',
+932 silly addNameRange     '1.0.0-rc2',
+932 silly addNameRange     '1.0.0-rc3',
+932 silly addNameRange     '1.0.0-rc4',
+932 silly addNameRange     '2.0.0-beta',
+932 silly addNameRange     '2.0.0-beta2',
+932 silly addNameRange     '2.0.0-beta3',
+932 silly addNameRange     '2.0.0-rc',
+932 silly addNameRange     '2.0.0-rc2',
+932 silly addNameRange     '2.0.0-rc3',
+932 silly addNameRange     '3.0.0-alpha1',
+932 silly addNameRange     '3.0.0-alpha2',
+932 silly addNameRange     '3.0.0-alpha3',
+932 silly addNameRange     '3.0.0-alpha4',
+932 silly addNameRange     '3.0.0-alpha5',
+932 silly addNameRange     '3.0.0-beta1',
+932 silly addNameRange     '3.0.0-beta2',
+932 silly addNameRange     '3.0.0-beta3',
+932 silly addNameRange     '3.0.0-beta4',
+932 silly addNameRange     '3.0.0-beta6',
+932 silly addNameRange     '3.0.0-beta7',
+932 silly addNameRange     '3.0.0-rc1',
+932 silly addNameRange     '3.0.0-rc2',
+932 silly addNameRange     '3.0.0-rc3',
+932 silly addNameRange     '3.0.0-rc4',
+932 silly addNameRange     '3.0.0-rc5',
+932 silly addNameRange     '3.3.7',
+932 silly addNameRange     '3.3.8',
+932 silly addNameRange     '3.4.0',
+932 silly addNameRange     '3.4.1',
+932 silly addNameRange     '3.4.2',
+932 silly addNameRange     '3.4.3',
+932 silly addNameRange     '3.4.4',
+932 silly addNameRange     '3.4.5',
+932 silly addNameRange     '3.4.6',
+932 silly addNameRange     '3.4.7',
+932 silly addNameRange     '3.4.8',
+932 silly addNameRange     '4.0.0-rc1',
+932 silly addNameRange     '4.0.0-rc2',
+932 silly addNameRange     '3.5.0',
+932 silly addNameRange     '4.0.0-rc3',
+932 silly addNameRange     '4.0.0-rc4',
+932 silly addNameRange     '3.5.1',
+932 silly addNameRange     '4.0.0',
+932 silly addNameRange     '3.5.2',
+932 silly addNameRange     '4.1.0',
+932 silly addNameRange     '4.1.1',
+932 silly addNameRange     '3.5.3',
+932 silly addNameRange     '4.1.2',
+932 silly addNameRange     '3.6.0',
+932 silly addNameRange     '4.2.0',
+932 silly addNameRange     '3.7.0',
+932 silly addNameRange     '3.8.0',
+932 silly addNameRange     '4.3.0',
+932 silly addNameRange     '4.3.1',
+932 silly addNameRange     '3.8.1',
+932 silly addNameRange     '4.3.2',
+932 silly addNameRange     '3.9.0',
+932 silly addNameRange     '4.4.0',
+932 silly addNameRange     '4.4.1',
+932 silly addNameRange     '3.10.0',
+932 silly addNameRange     '3.10.1',
+932 silly addNameRange     '3.10.2',
+932 silly addNameRange     '3.10.3',
+932 silly addNameRange     '3.10.4',
+932 silly addNameRange     '4.4.2',
+932 silly addNameRange     '3.10.5',
+932 silly addNameRange     '4.4.3',
+932 silly addNameRange     '3.11.0',
+932 silly addNameRange     '4.4.4',
+932 silly addNameRange     '3.12.0',
+932 silly addNameRange     '3.12.1',
+932 silly addNameRange     '4.4.5',
+932 silly addNameRange     '3.13.0',
+932 silly addNameRange     '4.5.0',
+932 silly addNameRange     '4.5.1',
+932 silly addNameRange     '3.14.0',
+932 silly addNameRange     '4.6.0',
+932 silly addNameRange     '4.6.1',
+932 silly addNameRange     '3.15.0',
+932 silly addNameRange     '4.7.0',
+932 silly addNameRange     '3.15.1',
+932 silly addNameRange     '4.7.1',
+932 silly addNameRange     '3.15.2',
+932 silly addNameRange     '4.7.2',
+932 silly addNameRange     '4.7.3',
+932 silly addNameRange     '3.15.3',
+932 silly addNameRange     '4.7.4',
+932 silly addNameRange     '3.16.0',
+932 silly addNameRange     '4.8.0',
+932 silly addNameRange     '3.16.1',
+932 silly addNameRange     '4.8.1',
+932 silly addNameRange     '3.16.2',
+932 silly addNameRange     '4.8.2',
+932 silly addNameRange     '3.16.3',
+932 silly addNameRange     '3.16.4',
+932 silly addNameRange     '4.8.3',
+932 silly addNameRange     '3.16.5',
+932 silly addNameRange     '3.16.6',
+932 silly addNameRange     '4.8.4',
+932 silly addNameRange     '3.16.7',
+932 silly addNameRange     '4.8.5',
+932 silly addNameRange     '3.16.8',
+932 silly addNameRange     '4.8.6',
+932 silly addNameRange     '3.16.9',
+932 silly addNameRange     '4.8.7',
+932 silly addNameRange     '3.16.10',
+932 silly addNameRange     '4.8.8',
+932 silly addNameRange     '3.17.0',
+932 silly addNameRange     '3.17.1',
+932 silly addNameRange     '4.9.0',
+932 silly addNameRange     '3.17.2',
+932 silly addNameRange     '4.9.1',
+932 silly addNameRange     '4.9.2',
+932 silly addNameRange     '3.17.3',
+932 silly addNameRange     '4.9.3',
+932 silly addNameRange     '3.17.4',
+932 silly addNameRange     '4.9.4',
+932 silly addNameRange     '3.17.5',
+932 silly addNameRange     '4.9.5',
+932 silly addNameRange     '3.17.6',
+932 silly addNameRange     '3.17.7',
+932 silly addNameRange     '4.9.6',
+932 silly addNameRange     '4.9.7',
+932 silly addNameRange     '3.17.8',
+932 silly addNameRange     '4.9.8',
+932 silly addNameRange     '3.18.0',
+932 silly addNameRange     '3.18.1',
+932 silly addNameRange     '4.10.0',
+932 silly addNameRange     '3.18.2',
+932 silly addNameRange     '4.10.1',
+932 silly addNameRange     '5.0.0-alpha.1',
+932 silly addNameRange     '3.18.3',
+932 silly addNameRange     '4.10.2',
+932 silly addNameRange     '3.18.4',
+932 silly addNameRange     '4.10.3',
+932 silly addNameRange     '4.10.4',
+932 silly addNameRange     '4.10.5',
+932 silly addNameRange     '3.18.5',
+932 silly addNameRange     '3.18.6',
+932 silly addNameRange     '4.10.6',
+932 silly addNameRange     '4.10.7',
+932 silly addNameRange     '3.19.0',
+932 silly addNameRange     '4.10.8',
+932 silly addNameRange     '4.11.0',
+932 silly addNameRange     '3.19.1',
+932 silly addNameRange     '4.11.1',
+932 silly addNameRange     '3.19.2',
+932 silly addNameRange     '4.11.2',
+932 silly addNameRange     '3.20.0',
+932 silly addNameRange     '4.12.0',
+932 silly addNameRange     '3.20.1',
+932 silly addNameRange     '4.12.1',
+932 silly addNameRange     '4.12.2',
+932 silly addNameRange     '3.20.2',
+932 silly addNameRange     '4.12.3',
+932 silly addNameRange     '3.20.3',
+932 silly addNameRange     '4.12.4',
+932 silly addNameRange     '3.21.0',
+932 silly addNameRange     '4.13.0',
+932 silly addNameRange     '3.21.1',
+932 silly addNameRange     '4.13.1',
+932 silly addNameRange     '5.0.0-alpha.2',
+932 silly addNameRange     '3.21.2',
+932 silly addNameRange     '4.13.2',
+932 silly addNameRange     '4.13.3' ] ]
+933 verbose addNamed [ 'express', '4.13.3' ]
+934 verbose addNamed [ '4.13.3', '4.13.3' ]
+935 silly lockFile 51f1744e-express-4-13-3 express@4.13.3
+936 verbose lock express@4.13.3 /home/lucie/.npm/51f1744e-express-4-13-3.lock
+937 silly lockFile 0cf3ba70-s-org-express-express-4-13-3-tgz https://registry.npmjs.org/express/-/express-4.13.3.tgz
+938 verbose lock https://registry.npmjs.org/express/-/express-4.13.3.tgz /home/lucie/.npm/0cf3ba70-s-org-express-express-4-13-3-tgz.lock
+939 verbose addRemoteTarball [ 'https://registry.npmjs.org/express/-/express-4.13.3.tgz',
+939 verbose addRemoteTarball   'ddb2f1fb4502bf33598d2b032b037960ca6c80a3' ]
+940 info retry fetch attempt 1 at 16:07:25
+941 verbose fetch to= /tmp/npm-14363-1Hwxjjla/registry.npmjs.org/express/-/express-4.13.3.tgz
+942 http GET https://registry.npmjs.org/express/-/express-4.13.3.tgz
+943 http 200 https://registry.npmjs.org/winston-papertrail/-/winston-papertrail-0.1.5.tgz
+944 silly lockFile cbd2fde2-ail-winston-papertrail-0-1-5-tgz https://registry.npmjs.org/winston-papertrail/-/winston-papertrail-0.1.5.tgz
+945 silly lockFile cbd2fde2-ail-winston-papertrail-0-1-5-tgz https://registry.npmjs.org/winston-papertrail/-/winston-papertrail-0.1.5.tgz
+946 silly lockFile 407b22fd-winston-papertrail-0-1-5 winston-papertrail@0.1.5
+947 silly lockFile 407b22fd-winston-papertrail-0-1-5 winston-papertrail@0.1.5
+948 silly lockFile 89141de2-winston-papertrail-0-1-5 winston-papertrail@^0.1.5
+949 silly lockFile 89141de2-winston-papertrail-0-1-5 winston-papertrail@^0.1.5
+950 http 304 https://registry.npmjs.org/brunch
+951 silly registry.get cb [ 304,
+951 silly registry.get   { date: 'Wed, 28 Oct 2015 13:07:25 GMT',
+951 silly registry.get     via: '1.1 varnish',
+951 silly registry.get     'cache-control': 'max-age=60',
+951 silly registry.get     etag: '"A0TSRVQEK2NQ14MM1DTLAM0ND"',
+951 silly registry.get     age: '0',
+951 silly registry.get     connection: 'keep-alive',
+951 silly registry.get     'x-served-by': 'cache-lcy1127-LCY',
+951 silly registry.get     'x-cache': 'HIT',
+951 silly registry.get     'x-cache-hits': '1',
+951 silly registry.get     'x-timer': 'S1446037645.390798,VS0,VE182',
+951 silly registry.get     vary: 'Accept' } ]
+952 verbose etag https://registry.npmjs.org/brunch from cache
+953 silly lockFile 97d11f37-brunch-1-8-5 brunch@1.8.5
+954 silly lockFile 97d11f37-brunch-1-8-5 brunch@1.8.5
+955 http 200 https://registry.npmjs.org/mocha-phantomjs/-/mocha-phantomjs-4.0.1.tgz
+956 silly lockFile d7f41d06-ntomjs-mocha-phantomjs-4-0-1-tgz https://registry.npmjs.org/mocha-phantomjs/-/mocha-phantomjs-4.0.1.tgz
+957 silly lockFile d7f41d06-ntomjs-mocha-phantomjs-4-0-1-tgz https://registry.npmjs.org/mocha-phantomjs/-/mocha-phantomjs-4.0.1.tgz
+958 silly lockFile 471af4c9-mocha-phantomjs-4-0-1 mocha-phantomjs@4.0.1
+959 silly lockFile 471af4c9-mocha-phantomjs-4-0-1 mocha-phantomjs@4.0.1
+960 silly lockFile cd760586-mocha-phantomjs-3-3-2 mocha-phantomjs@>= 3.3.2
+961 silly lockFile cd760586-mocha-phantomjs-3-3-2 mocha-phantomjs@>= 3.3.2
+962 http 200 https://registry.npmjs.org/uglify-js-brunch/-/uglify-js-brunch-1.7.8.tgz
+963 silly lockFile 43154154-runch-uglify-js-brunch-1-7-8-tgz https://registry.npmjs.org/uglify-js-brunch/-/uglify-js-brunch-1.7.8.tgz
+964 silly lockFile 43154154-runch-uglify-js-brunch-1-7-8-tgz https://registry.npmjs.org/uglify-js-brunch/-/uglify-js-brunch-1.7.8.tgz
+965 silly lockFile cd6b0dc2-uglify-js-brunch-1-7-8 uglify-js-brunch@1.7.8
+966 silly lockFile cd6b0dc2-uglify-js-brunch-1-7-8 uglify-js-brunch@1.7.8
+967 silly lockFile a673e60c-uglify-js-brunch-1-0-1-9 uglify-js-brunch@>= 1.0 < 1.9
+968 silly lockFile a673e60c-uglify-js-brunch-1-0-1-9 uglify-js-brunch@>= 1.0 < 1.9
+969 http 200 https://registry.npmjs.org/express/-/express-4.13.3.tgz
+970 http 200 https://registry.npmjs.org/less-brunch/-/less-brunch-1.8.1.tgz
+971 silly lockFile 468643d7-ess-brunch-less-brunch-1-8-1-tgz https://registry.npmjs.org/less-brunch/-/less-brunch-1.8.1.tgz
+972 silly lockFile 468643d7-ess-brunch-less-brunch-1-8-1-tgz https://registry.npmjs.org/less-brunch/-/less-brunch-1.8.1.tgz
+973 silly lockFile 5bb6b831-less-brunch-1-8-1 less-brunch@1.8.1
+974 silly lockFile 5bb6b831-less-brunch-1-8-1 less-brunch@1.8.1
+975 silly lockFile d5b248f9-less-brunch-1-8-1 less-brunch@^1.8.1
+976 silly lockFile d5b248f9-less-brunch-1-8-1 less-brunch@^1.8.1
+977 http 200 https://registry.npmjs.org/winston/-/winston-0.7.3.tgz
+978 silly lockFile e7e896fd-js-org-winston-winston-0-7-3-tgz https://registry.npmjs.org/winston/-/winston-0.7.3.tgz
+979 silly lockFile e7e896fd-js-org-winston-winston-0-7-3-tgz https://registry.npmjs.org/winston/-/winston-0.7.3.tgz
+980 silly lockFile bed49444-winston-0-7-3 winston@0.7.3
+981 silly lockFile bed49444-winston-0-7-3 winston@0.7.3
+982 silly lockFile f8b84d29-winston-0-7-3 winston@^0.7.3
+983 silly lockFile f8b84d29-winston-0-7-3 winston@^0.7.3
+984 silly lockFile 0cf3ba70-s-org-express-express-4-13-3-tgz https://registry.npmjs.org/express/-/express-4.13.3.tgz
+985 silly lockFile 0cf3ba70-s-org-express-express-4-13-3-tgz https://registry.npmjs.org/express/-/express-4.13.3.tgz
+986 silly lockFile 51f1744e-express-4-13-3 express@4.13.3
+987 silly lockFile 51f1744e-express-4-13-3 express@4.13.3
+988 silly lockFile 3a17db05-express-4-9-8 express@^4.9.8
+989 silly lockFile 3a17db05-express-4-9-8 express@^4.9.8
+990 silly lockFile fa7731cd-mjs-org-moment-moment-2-10-6-tgz https://registry.npmjs.org/moment/-/moment-2.10.6.tgz
+991 silly lockFile fa7731cd-mjs-org-moment-moment-2-10-6-tgz https://registry.npmjs.org/moment/-/moment-2.10.6.tgz
+992 silly lockFile 81e32ec7-moment-2-10-6 moment@2.10.6
+993 silly lockFile 81e32ec7-moment-2-10-6 moment@2.10.6
+994 silly lockFile 1fb0b04f-moment-2-8-3 moment@^2.8.3
+995 silly lockFile 1fb0b04f-moment-2-8-3 moment@^2.8.3
+996 error Error: EACCES, mkdir '/home/lucie/.npm/express/4.13.3'
+996 error  { [Error: EACCES, mkdir '/home/lucie/.npm/express/4.13.3']
+996 error   errno: 3,
+996 error   code: 'EACCES',
+996 error   path: '/home/lucie/.npm/express/4.13.3',
+996 error   parent: 'akili' }
+997 error Please try running this command again as root/Administrator.
+998 error System Linux 3.19.0-25-generic
+999 error command "/usr/bin/node" "/usr/bin/npm" "install"
+1000 error cwd /home/lucie/HDX/akili
+1001 error node -v v0.10.37
+1002 error npm -v 1.4.28
+1003 error path /home/lucie/.npm/express/4.13.3
+1004 error code EACCES
+1005 error errno 3
+1006 error stack Error: EACCES, mkdir '/home/lucie/.npm/express/4.13.3'
+1007 verbose exit [ 3, true ]

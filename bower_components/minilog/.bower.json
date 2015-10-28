@@ -1,0 +1,24 @@
+{
+  "name": "minilog",
+  "main": [
+    "dist/minilog.js"
+  ],
+  "ignore": [
+    "**/.*",
+    "Makefile",
+    "test",
+    "package.json",
+    "lib"
+  ],
+  "homepage": "https://github.com/mixu/minilog",
+  "version": "2.0.8",
+  "_release": "2.0.8",
+  "_resolution": {
+    "type": "version",
+    "tag": "v2.0.8",
+    "commit": "c62a715d014b22c4307b82217e4bb70916ffe034"
+  },
+  "_source": "git://github.com/mixu/minilog.git",
+  "_target": "~2.0.6",
+  "_originalSource": "minilog"
+}

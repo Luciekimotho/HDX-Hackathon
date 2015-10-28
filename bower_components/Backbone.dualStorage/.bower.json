@@ -1,0 +1,43 @@
+{
+  "name": "Backbone.dualStorage",
+  "main": "Backbone.dualStorage.js",
+  "version": "1.4.0",
+  "homepage": "https://github.com/nilbus/Backbone.dualStorage",
+  "authors": [
+    "Edward Anderson <nilbus@nilbus.com>",
+    "Lucian Mihaila",
+    "Jerome Gravel-Niquet"
+  ],
+  "description": "A dual (localStorage and REST) sync adapter for Backbone.js",
+  "keywords": [
+    "backbone",
+    "storage",
+    "adapter",
+    "localcache",
+    "sync"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "backbone": ">=0.9.2",
+    "underscore": "~1"
+  },
+  "devDependencies": {
+    "coffee-script": "~1"
+  },
+  "_release": "1.4.0",
+  "_resolution": {
+    "type": "version",
+    "tag": "v1.4.0",
+    "commit": "48d42201749bd67a188c8b29f5763318a88fb9c6"
+  },
+  "_source": "git://github.com/nilbus/Backbone.dualStorage.git",
+  "_target": "~1.4",
+  "_originalSource": "Backbone.dualStorage"
+}

@@ -1,0 +1,26 @@
+{
+  "author": "Reuben Cummings",
+  "name": "chaplin-utils",
+  "description": "Useful utilities for chaplinjs apps",
+  "version": "0.14.2",
+  "environment": "web",
+  "homepage": "https://github.com/reubano/chaplin-utils",
+  "keywords": [
+    "chaplinjs",
+    "utilities"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/reubano/chaplin-utils"
+  },
+  "engines": {
+    "node": "0.10.32"
+  },
+  "scripts": {
+    "postinstall": "bower install && coffee -o compiled/ src/"
+  },
+  "devDependencies": {
+    "bower": "^1.3.12",
+    "coffee-script": "^1.8.0"
+  }
+}

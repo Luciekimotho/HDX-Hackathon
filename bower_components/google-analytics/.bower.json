@@ -1,0 +1,11 @@
+{
+  "name": "google-analytics",
+  "_cacheHeaders": {
+    "Last-Modified": "Thu, 10 Sep 2015 10:52:20 GMT",
+    "Content-Type": "text/javascript"
+  },
+  "main": "index.js",
+  "_source": "http://www.google-analytics.com/analytics.js",
+  "_target": "*",
+  "_originalSource": "http://www.google-analytics.com/analytics.js"
+}

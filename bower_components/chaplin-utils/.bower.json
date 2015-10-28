@@ -1,0 +1,38 @@
+{
+  "name": "chaplin-utils",
+  "version": "0.14.2",
+  "authors": [
+    "Reuben Cummings <reubano@gmail.com>"
+  ],
+  "description": "Useful utilities for chaplinjs apps",
+  "main": "compiled/chaplin-utils.js",
+  "dependencies": {
+    "minilog": "~2.0.6",
+    "jquery": "~2.0.2",
+    "lodash": "~3.7.0",
+    "underscore.string": "~3.0.3",
+    "google-analytics": "http://www.google-analytics.com/analytics.js"
+  },
+  "keywords": [
+    "chaplinjs",
+    "utilities"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/reubano/chaplin-utils",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "_release": "0.14.2",
+  "_resolution": {
+    "type": "version",
+    "tag": "v0.14.2",
+    "commit": "6e229fed5c960ba4da23edc66833b809e7ac1457"
+  },
+  "_source": "git://github.com/reubano/chaplin-utils.git",
+  "_target": "v0.14.2",
+  "_originalSource": "git://github.com/reubano/chaplin-utils"
+}
